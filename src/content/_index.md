@@ -6,13 +6,15 @@ description: "@ The Web Conference 2021"
 
 # Overview
 
-This workshop aims to initiate an effort to mitigate the lack of quantity and diversity of graph benchmarks through crowdsourcing in the graph machine learning community. 
+Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks, we call for contributions that introduce novel ML tasks or novel graph-structured data which have the potential to (i) help understand the performance and limitations of graph representation models on diverse sets of problems and (ii) support benchmark evaluations for various models. 
 
-Graph-structured data are ubiquitous, heterogeneous, and diverse in real world applications. While recent literature has demonstrated that graph machine learning models---especially graph neural networks (GNNs)---achieve promising performance on a variety of  tasks, there is a trend that further improvements on particular tasks often face dramatically different technical bottlenecks. 
+We especially (but not exclusively) call for submissions which will contribute to at least one of the following:
+- **New Graph Datasets**: Novel graph-structured datasets—especially large-scale, application-oriented, and publicly accessible datasets. We also welcome methods and software packages that enable streamlined benchmarking of large-scale graph data, crawling or crowdsourcing for labeled graph data, and generation of realistic synthetic graphs.
+- **New ML Tasks**: New ML tasks and applications on different types of graphs, at different levels (e.g., node, edge, and (sub)graph), with a special focus on real-world and industry-valued problems.
+- **New Metrics**: New evaluation procedures and metrics of graph learning associated with the various tasks and datasets.
+- **Benchmarking Studies**: Studies that benchmark multiple graph ML learning methods (especially graph neural networks) on non-trivial tasks and datasets. We explicitly encourage works that reveal limitations of existing models, optimize matches between model design and problems, and other novel findings about the behaviors of existing models on various tasks or datasets.
 
-Despite the clear heterogeneity of graph machine learning tasks and their associated technical challenges, there lack enough quantity and diversity of benchmark tasks and datasets reflecting the rich heterogeneity. The lack of benchmarks not only hinders the community's progress in finding the synergy among the variety of models, it may even bias the development of new models towards narrow directions.
-
-Inspired by the well-established conference tracks in computer vision and natural language processing communities that are dedicated to establish new benchmark datasets and tasks, we call for contributions by establishing novel machine learning tasks on novel graph-structured data which have the potential to provide benchmark evaluations for various graph neural network models. The acceptance of the contributed papers will be decided on the meaningfulness of the established graph learning tasks/datasets and their potential of being formalized into new benchmarks, rather than the performance of machine learning models (old or new) on these tasks. We particularly welcome contributions of negative results of popular, state-of-the-art models on a new task/dataset, as these provide novel insights to the community's understanding of the meta-knowledge of graph machine learning.
+The acceptance of the contributed papers will be decided on the meaningfulness of the established graph learning tasks/datasets and their potential of being formalized into new benchmarks, rather than the performance of ML models (old or new) on these tasks. We particularly welcome contributions of **negative results** of popular, state-of-the-art models on a new task/dataset, as these provide novel insights to the community's understanding of the meta-knowledge of graph ML.
 
 
 
