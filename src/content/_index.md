@@ -31,7 +31,7 @@ The acceptance of the contributed papers will be decided on the meaningfulness o
 Submission link to be announced.
 
 ## Format
-- A paper no longer than 4 pages (excluding references and the appendix) using the Web Conference 2021 LaTeX template.
+- A paper no longer than 4 pages (excluding references and the appendix) using [the ACM "sigconf" LaTeX template](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip) (see [the instruction by the Web Conference 2021](https://www2021.thewebconf.org/authors/call-for-papers)).
 - **This workshop is non-archival. Relevant findings that have been recently published are also welcome.**
 - The submission is single-blinded for the ease of data/code sharing. The reviewers are anonymized but the authors do not need to be anonymized in the submission.
 - Authors are *strongly encouraged* to include the corresponding datasets and code as supplementary materials in their submission. For large datasets or repositories, the authors can provide an external link through Github, Google drive, Dropbox, OneDrive, or Box. We limit the choice of storage platforms for security considerations. Please email the organizers if none of the listed platforms works for you.
