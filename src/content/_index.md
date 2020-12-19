@@ -28,7 +28,9 @@ The acceptance of the contributed papers will be decided on the meaningfulness o
 - Camera-ready version due: Mar 22, 2021
 
 ## Submission
-Submission link to be announced.
+Abstracts and papers can be submitted through CMT: 
+
+https://cmt3.research.microsoft.com/GLB2021/Submission/Index
 
 ## Format
 - A paper no longer than *4 pages* (excluding references and the appendix) using [the ACM "sigconf" LaTeX template](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip) (see [the instruction by the Web Conference 2021](https://www2021.thewebconf.org/authors/call-for-papers)).
