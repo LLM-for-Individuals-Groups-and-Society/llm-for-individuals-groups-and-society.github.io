@@ -16,7 +16,12 @@ We especially (but not exclusively) call for submissions which will contribute t
 
 The acceptance of the contributed papers will be decided on the meaningfulness of the established graph learning tasks/datasets and their potential of being formalized into new benchmarks, rather than the performance of ML models (old or new) on these tasks. We particularly welcome contributions of **negative results** of popular, state-of-the-art models on a new task/dataset, as these provide novel insights to the community's understanding of the meta-knowledge of graph ML.
 
+---
 
+# Keynote Speaker
+- Speaker: [Jure Leskovec](https://cs.stanford.edu/~jure/), Stanford University
+- Title: TBD
+- Abstract: TBD
 
 ---
 
