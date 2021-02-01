@@ -20,8 +20,8 @@ The acceptance of the contributed papers will be decided on the meaningfulness o
 
 # Keynote Speaker
 - Speaker: [Jure Leskovec](https://cs.stanford.edu/~jure/), Stanford University
-- Title: TBD
-- Abstract: TBD
+- Title: TBA
+- Abstract: TBA
 
 ---
 
