@@ -28,7 +28,7 @@ The acceptance of the contributed papers will be decided on the meaningfulness o
 # Call for Papers
 
 ## Important Dates
-- Submission deadline: Feb 15, 2021 (Anywehre on Earth)
+- Submission deadline: Feb 15, 2021 (Anywhere on Earth)
 - Acceptance notification: Mar 8, 2021
 - Camera-ready version due: Mar 22, 2021
 
