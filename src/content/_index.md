@@ -28,9 +28,9 @@ The acceptance of the contributed papers will be decided on the meaningfulness o
 # Call for Papers
 
 ## Important Dates
-- Submission deadline: Feb 15, 2021 (Anywhere on Earth)
-- Acceptance notification: Mar 8, 2021
-- Camera-ready version due: Mar 22, 2021
+- Submission deadline: ~~Feb 15~~ Feb 22, 2021 (Anywhere on Earth)
+- Acceptance notification: ~~Mar 8~~ Mar 15, 2021
+- Camera-ready version due: ~~Mar 22~~ Mar 29, 2021
 
 ## Submission
 Abstracts and papers can be submitted through CMT: 
