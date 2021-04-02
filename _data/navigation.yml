@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Overview"
+    url: /#Overview
+  - title: "Keynote Speaker"
+    url: /#keynote-speaker
+  - title: "Accepted Papers"
+    url: /#accepted-papers
+  - title: "Organizers"
+    url: /#organizers
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
