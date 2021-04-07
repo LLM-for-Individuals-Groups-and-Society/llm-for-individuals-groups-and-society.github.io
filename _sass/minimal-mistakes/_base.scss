@@ -355,3 +355,11 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+.row-two-columns {
+  display: flex;
+}
+
+.column-half {
+  flex: 50%;
+}

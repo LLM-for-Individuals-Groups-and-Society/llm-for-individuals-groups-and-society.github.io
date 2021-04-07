@@ -7,6 +7,29 @@ header:
     overlay_color: "#000"
     overlay_filter: "0.5"
     overlay_image: /assets/images/glb-bg.jpg
+organizers: # Not ready yet
+    - image_path: /assets/images/danai.jpg
+      alt: "Danai Koutra"
+      excerpt: "**Danai Koutra**"
+    - image_path: /assets/images/danai.jpg
+      alt: "Danai Koutra"
+      excerpt: "**Danai Koutra**"
+    - image_path: /assets/images/danai.jpg
+      alt: "Danai Koutra"
+      excerpt: "**Danai Koutra**"
+    - image_path: /assets/images/danai.jpg
+      alt: "Danai Koutra"
+      excerpt: "**Danai Koutra**"
+    - image_path: /assets/images/danai.jpg
+      alt: "Danai Koutra"
+      excerpt: "**Danai Koutra**"
+keynote: # Not ready yet
+    - image_path: /assets/images/jure.jpg
+      alt: "Jure Leskovec"
+      excerpt: |
+        - **Speaker**: Jure Leskovec <br>
+        - **Title**: TBA
+        - **Abstract**: TBA
 ---
 
 <!-- {% capture notice-text %}
@@ -47,6 +70,8 @@ Our previous call for papers can be found [here](/call-for-papers).
 - Title: TBA
 - Abstract: TBA
 
+<!-- {% include feature_row id="keynote" type="left" %} -->
+
 # Accepted Papers
 <ul>
 {% for pubitem in site.data.papers %}
@@ -74,6 +99,25 @@ Our previous call for papers can be found [here](/call-for-papers).
 - [Danai Koutra](https://web.eecs.umich.edu/~dkoutra/), University of Michigan
 - [Qiaozhu Mei](http://www-personal.umich.edu/~qmei/), University of Michigan
 
+<!-- {% include feature_row id="organizers" %} -->
+
+# Program Committee
+<div class="small row-two-columns">
+<div class="column-half">
+<ul>
+{% for people in site.data.pc-members limit:10 %}
+<li>{{ people | markdownify | remove: '<p>' | remove: '</p>' | strip }} </li>
+{% endfor %}
+</ul>
+</div>
+<div class="column-half">
+<ul>
+{% for people in site.data.pc-members offset:10 %}
+<li>{{ people | markdownify | remove: '<p>' | remove: '</p>' | strip }} </li>
+{% endfor %}
+</ul>
+</div>
+</div>
 
 <script>
     var coll = document.getElementsByClassName("collapsible");
