@@ -2,8 +2,10 @@
 main:
   - title: "Overview"
     url: /#Overview
-  - title: "Keynote Speaker"
-    url: /#keynote-speaker
+  - title: "Schedule"
+    url: /#schedule
+  - title: "Invited Speakers"
+    url: /#invited-speakers
   - title: "Accepted Papers"
     url: /#accepted-papers
   - title: "Organization"

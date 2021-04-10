@@ -26,10 +26,41 @@ organizers: # Not ready yet
 keynote: # Not ready yet
     - image_path: /assets/images/jure.jpg
       alt: "Jure Leskovec"
-      excerpt: |
-        - **Speaker**: Jure Leskovec <br>
-        - **Title**: TBA
-        - **Abstract**: TBA
+      title: "Jure Leskovec"
+      excerpt: >
+        Talk title and abstract TBD. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+
+invited-talk: 
+    - image_path: /assets/images/leman.jpg
+      alt: "Leman Akoglu"
+      title: "Leman Akoglu"
+      excerpt: >
+        **Issues with Propagation Based Models for Graph-Level Outlier Detection**
+
+
+        **Abstract**: 
+        Graph-Level Outlier Detection (GLOD) is the task of identifying unusual graphs within a graph database, 
+        which received little attention compared to node-level detection in a single graph. As propagation based 
+        graph embedding by GNNs and graph kernels achieved promising results on another graph-level task, i.e. 
+        graph classification, we study applying those models to tackle GLOD. Instead of developing new models, 
+        this paper identifies and delves into a fundamental and intriguing issue with applying propagation based 
+        models to GLOD, with evaluation conducted on repurposed binary graph classification datasets where one class 
+        is down-sampled as outlier. We find that ROC-AUC performance of the models changes significantly 
+        (“flips” from high to low) depending on which class is down-sampled. Interestingly, ROC-AUCs on these two 
+        variants approximately sum to 1 and their performance gap is amplified with increasing propagations. 
+        We carefully study the graph embedding space produced by propagation based models and find two driving factors: 
+        (1) disparity between within-class densities which is amplified by propagation, and 
+        (2) overlapping support (mixing of embeddings) across classes. Our study sheds light onto the effects of using 
+        graph propagation based models and classification datasets for outlier detection for the first time.
 ---
 
 <!-- {% capture notice-text %}
@@ -44,6 +75,13 @@ This is an example notice using Markdown.
   {{ notice-text | markdownify }}
 </div> -->
 
+<script>
+if (!sessionStorage.getItem('timezone')) {
+  var tz = jstz.determine() || 'UTC';
+  sessionStorage.setItem('timezone', tz.name());
+}
+var currTz = sessionStorage.getItem('timezone');
+</script>
 
 # Overview
 
@@ -52,25 +90,36 @@ we call for contributions that introduce novel ML tasks or novel graph-structure
 (i) help understand the performance and limitations of graph representation models on diverse sets of problems and 
 (ii) support benchmark evaluations for various models.
 
-We especially (but not exclusively) call for submissions which will contribute to at least one of the following:
-
-- **New Graph Datasets**: Novel graph-structured datasets—especially large-scale, application-oriented, and publicly accessible datasets. We also welcome methods and software packages that enable streamlined benchmarking of large-scale graph data, crawling or crowdsourcing for labeled graph data, and generation of realistic synthetic graphs.
-- **New ML Tasks**: New ML tasks and applications on different types of graphs, at different levels (e.g., node, edge, subgraph or graph), with a special focus on real-world and industry-valued problems.
-- **New Metrics**: New evaluation procedures and metrics of graph learning associated with the various tasks and datasets.
-- **Benchmarking Studies**: Studies that benchmark multiple graph ML methods (especially graph neural networks) on non-trivial tasks and datasets. We explicitly encourage works that reveal limitations of existing models, optimize matches between model design and problems, and other novel findings about the behaviors of existing models on various tasks or datasets.
-
-The acceptance of the contributed papers is decided on the meaningfulness of the established graph learning tasks/datasets and their potential of being formalized into new benchmarks, rather than the performance of ML models (old or new) on these tasks. We particularly welcome contributions of **negative results** of popular, state-of-the-art models on a new task/dataset, as these provide novel insights to the community’s understanding of the meta-knowledge of graph ML. 
-
 Our previous call for papers can be found [here](/call-for-papers). 
 
-# Keynote Speaker
+# Schedule
+
+All the time listed below are in Ljubljana time (Central European Summer Time, UTC+2).
+
+| Time (UTC+2) | Agenda |
+| ----------------- | ------------ |
+| **3:00-3:10pm**    | **Opening remarks** |
+| **3:10-3:30pm**    | **[Invited talk by Leman Akoglu](#Leman+Akoglu) (20 min)**: <br> Issues with Propagation Based Models for Graph-Level Outlier Detection |
+| **3:30-4:00pm**    | **Contributed talks (12 min + 3-min Q&A for each):**<br>\- Reproducible Evaluations of Network Representation Learning Models Using EvalNE<br>\- Catastrophic Forgetting in Deep Graph Networks: an Introductory Benchmark for Graph Classification |
+| **4:00-4:05pm**    | **Break (5 min)** |
+| **4:05-4:40pm**    | **Spotlight talks (11 x 3 min)** |
+| **4:40-5:30pm**    | **Interactive poster session & Break (50 min)** |
+| **5:30-6:25pm**    | **Panel discussion (55 min)** |
+| **6:25-6:30pm**    | **Break (5 min)** |
+| **6:30-7:10pm**    | **[Keynote by Jure Leskovec](#Jure+Leskovec) (40 min)** |
+| **7:10-7:20pm**    | **Closing remarks** |
+
+
+# Invited Speakers
 <!-- ![image-left](/assets/images/jure.jpg){: .align-left} -->
 
-- Speaker: [Jure Leskovec](https://cs.stanford.edu/~jure/), Stanford University
-- Title: TBA
-- Abstract: TBA
+<!-- - Speaker: [Jure Leskovec](https://cs.stanford.edu/~jure/), Stanford University
+- Title: Issues with Propagation Based Models for Graph-Level Outlier Detection
+- Abstract: TBA -->
+{% include feature_row id="keynote" type="left" %}
+{% include feature_row id="invited-talk" type="left" %}
 
-<!-- {% include feature_row id="keynote" type="left" %} -->
+
 
 # Accepted Papers
 <ul>
@@ -93,12 +142,17 @@ Our previous call for papers can be found [here](/call-for-papers).
 </ul>
 
 # Organizers
-- [Jiaqi Ma](http://www.jiaqima.com/), University of Michigan
-- [Jiong Zhu](https://www.jiongzhu.net/), University of Michigan
-- [Yuxiao Dong](https://ericdongyx.github.io/), Facebook AI
-- [Danai Koutra](https://web.eecs.umich.edu/~dkoutra/), University of Michigan
-- [Qiaozhu Mei](http://www-personal.umich.edu/~qmei/), University of Michigan
+{% capture organizers %}
+- **[Jiaqi Ma](http://www.jiaqima.com/)** (University of Michigan)
+- **[Jiong Zhu](https://www.jiongzhu.net/)** (University of Michigan)
+- **[Yuxiao Dong](https://ericdongyx.github.io/)** (Facebook AI)
+- **[Danai Koutra](https://web.eecs.umich.edu/~dkoutra/)** (University of Michigan)
+- **[Qiaozhu Mei](http://www-personal.umich.edu/~qmei/)** (University of Michigan)
+{% endcapture %}
 
+<div class="small">
+{{ organizers | markdownify }}
+</div>
 <!-- {% include feature_row id="organizers" %} -->
 
 # Program Committee
