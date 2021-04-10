@@ -96,7 +96,7 @@ Our previous call for papers can be found [here](/call-for-papers).
 
 # Schedule
 
-All the time listed below are in Ljubljana time (Central European Summer Time, UTC+2). The workshop will start at Apr. 16, 2021 3:00pm CEST<span id="viewerTime"></span>.
+All the time listed below are in Ljubljana time (Central European Summer Time, UTC+2). The workshop will start at Apr 16, 2021 3:00pm CEST<span id="viewerTime"></span>.
 
 | Time (UTC+2) | Agenda |
 | ----------------- | ------------ |
@@ -112,7 +112,7 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 | **7:10-7:20pm**    | **Closing remarks** |
 
 <script>
-  document.getElementById("viewerTime").innerHTML = " (" + tzTime.format('h:mma z') + ")"
+  document.getElementById("viewerTime").innerHTML = " (" + tzTime.format('MMM DD h:mma z') + ")"
 </script>
 
 # Invited Speakers
