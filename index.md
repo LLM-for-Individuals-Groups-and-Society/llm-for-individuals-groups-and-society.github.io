@@ -82,6 +82,7 @@ if (!sessionStorage.getItem('timezone')) {
 }
 var currTz = sessionStorage.getItem('timezone');
 var startTime = moment("2021-04-16T13:00:00Z");
+var tzTime = startTime.tz(currTz)
 </script>
 
 # Overview
@@ -95,7 +96,7 @@ Our previous call for papers can be found [here](/call-for-papers).
 
 # Schedule
 
-<p id="start-time"> All the time listed below are in Ljubljana time (Central European Summer Time, UTC+2). The workshop will start at Apr. 16, 2021 3:00pm CEST. </p>
+All the time listed below are in Ljubljana time (Central European Summer Time, UTC+2). The workshop will start at Apr. 16, 2021 3:00pm CEST<span id="viewerTime"></span>.
 
 | Time (UTC+2) | Agenda |
 | ----------------- | ------------ |
@@ -110,6 +111,9 @@ Our previous call for papers can be found [here](/call-for-papers).
 | **6:30-7:10pm**    | **[Keynote by Jure Leskovec](#Jure+Leskovec) (40 min)** |
 | **7:10-7:20pm**    | **Closing remarks** |
 
+<script>
+  document.getElementById("viewerTime").innerHTML = " (" + tzTime.format('h:mma z') + ")"
+</script>
 
 # Invited Speakers
 <!-- ![image-left](/assets/images/jure.jpg){: .align-left} -->
