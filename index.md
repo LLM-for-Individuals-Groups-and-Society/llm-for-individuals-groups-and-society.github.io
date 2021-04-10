@@ -28,6 +28,9 @@ keynote: # Not ready yet
       alt: "Jure Leskovec"
       title: "Jure Leskovec"
       excerpt: >
+        ***Stanford University***
+
+        
         Talk title and abstract TBD. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -44,6 +47,9 @@ invited-talk:
       alt: "Leman Akoglu"
       title: "Leman Akoglu"
       excerpt: >
+        ***Carnegie Mellon University***
+
+
         **Issues with Propagation Based Models for Graph-Level Outlier Detection**
 
 
