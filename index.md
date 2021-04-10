@@ -81,6 +81,7 @@ if (!sessionStorage.getItem('timezone')) {
   sessionStorage.setItem('timezone', tz.name());
 }
 var currTz = sessionStorage.getItem('timezone');
+var startTime = moment("2021-04-16T13:00:00Z");
 </script>
 
 # Overview
@@ -94,7 +95,7 @@ Our previous call for papers can be found [here](/call-for-papers).
 
 # Schedule
 
-All the time listed below are in Ljubljana time (Central European Summer Time, UTC+2).
+<p id="start-time"> All the time listed below are in Ljubljana time (Central European Summer Time, UTC+2). The workshop will start at Apr. 16, 2021 3:00pm CEST. </p>
 
 | Time (UTC+2) | Agenda |
 | ----------------- | ------------ |

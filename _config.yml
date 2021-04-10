@@ -283,5 +283,5 @@ defaults:
 
 head_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone-with-data-10-year-range.js
   - https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.7/jstz.min.js
