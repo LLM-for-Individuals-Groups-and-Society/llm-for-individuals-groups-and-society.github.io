@@ -23,6 +23,23 @@ organizers: # Not ready yet
     - image_path: /assets/images/danai.jpg
       alt: "Danai Koutra"
       excerpt: "**Danai Koutra**"
+panelists:
+    - image_path: assets/images/guennemann.jpg
+      alt: "Stephan Günnemann"
+      excerpt: >
+        **Stephan Günnemann**<br>
+        Technical University of Munich
+    - image_path: assets/images/sun.jpg
+      alt: "Yizhou Sun"
+      excerpt: >
+        **Yizhou Sun**<br>
+        University of California, Los Angeles
+    - image_path: assets/images/Jie.jpg
+      alt: "Jie Tang"
+      excerpt: >
+        **Jie Tang**<br>
+        Tsinghua University
+
 keynote: # Not ready yet
     - image_path: /assets/images/jure.jpg
       alt: "Jure Leskovec"
@@ -112,7 +129,7 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 | **4:00-4:05pm**    | **Break (5 min)** |
 | **4:05-4:40pm**    | **Spotlight talks (11 x 3 min)** |
 | **4:40-5:30pm**    | **Interactive poster session & Break (50 min)** |
-| **5:30-6:25pm**    | **Panel discussion (55 min)** |
+| **5:30-6:25pm**    | **[Panel discussion](#panelists) (55 min):<br>Stephan Günnemann, Yizhou Sun, Jie Tang**|
 | **6:25-6:30pm**    | **Break (5 min)** |
 | **6:30-7:10pm**    | **[Keynote by Jure Leskovec](#Jure+Leskovec) (40 min)** |
 | **7:10-7:20pm**    | **Closing remarks** |
@@ -130,7 +147,8 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 {% include feature_row id="keynote" type="left" %}
 {% include feature_row id="invited-talk" type="left" %}
 
-
+# Panelists
+{% include feature_row id="panelists" %}
 
 # Accepted Papers
 <ul>
