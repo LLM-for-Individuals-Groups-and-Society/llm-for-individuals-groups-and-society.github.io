@@ -29,12 +29,12 @@ panelists:
       excerpt: >
         **Stephan Günnemann**<br>
         Technical University of Munich
-    - image_path: assets/images/sun.jpg
+    - image_path: assets/images/yizhou.jpg
       alt: "Yizhou Sun"
       excerpt: >
         **Yizhou Sun**<br>
         University of California, Los Angeles
-    - image_path: assets/images/Jie.jpg
+    - image_path: assets/images/jie.jpg
       alt: "Jie Tang"
       excerpt: >
         **Jie Tang**<br>
