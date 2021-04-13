@@ -34,7 +34,7 @@ panelists:
       excerpt: >
         **Yizhou Sun**<br>
         University of California, Los Angeles
-    - image_path: assets/images/jie.jpg
+    - image_path: assets/images/Jie.jpg
       alt: "Jie Tang"
       excerpt: >
         **Jie Tang**<br>
