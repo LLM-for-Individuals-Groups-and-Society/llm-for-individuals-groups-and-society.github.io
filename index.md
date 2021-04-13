@@ -86,17 +86,14 @@ invited-talk:
         graph propagation based models and classification datasets for outlier detection for the first time.
 ---
 
-<!-- {% capture notice-text %}
-This is an example notice using Markdown.
-
-* Bullet point 1
-* Bullet point 2
+{% capture notice-text %}
+**To join our workshop on live**: visit our room at the [MiTeam Platform](https://theweb.miteam.eu/asset/9Ffmuifa4MAzKPa6o) at TheWebConf 2021!
 {% endcapture %}
 
 <div class="notice--info">
-  <h4 class="no_toc">Notice Headline:</h4>
+  <!-- <h4 class="no_toc">Notice Headline:</h4> -->
   {{ notice-text | markdownify }}
-</div> -->
+</div>
 
 <script>
 if (!sessionStorage.getItem('timezone')) {
