@@ -122,7 +122,7 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 | **4:40-5:30pm**    | **Interactive poster session & Break (50 min)** |
 | **5:30-6:25pm**    | **[Panel discussion](#panelists) (55 min):<br>Stephan Günnemann, Yizhou Sun, Jie Tang**|
 | **6:25-6:30pm**    | **Break (5 min)** |
-| **6:30-7:10pm**    | **[Keynote by Jure Leskovec](#Jure+Leskovec) (40 min)** |
+| **6:30-7:10pm**    | **[Keynote by Jure Leskovec](#Jure+Leskovec) (40 min)**: <br> Open Graph Benchmark Large-Scale Challenge |
 | **7:10-7:20pm**    | **Closing remarks** |
 
 <script>
