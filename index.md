@@ -61,23 +61,11 @@ invited-talk:
         ***Carnegie Mellon University***
 
 
-        **Issues with Propagation Based Models for Graph-Level Outlier Detection**
+        **On Using Classification Datasets to Evaluate Graph Outlier Detection: Peculiar Observations and New Insights**
 
 
         **Abstract**: 
-        Graph-Level Outlier Detection (GLOD) is the task of identifying unusual graphs within a graph database, 
-        which received little attention compared to node-level detection in a single graph. As propagation based 
-        graph embedding by GNNs and graph kernels achieved promising results on another graph-level task, i.e. 
-        graph classification, we study applying those models to tackle GLOD. Instead of developing new models, 
-        this paper identifies and delves into a fundamental and intriguing issue with applying propagation based 
-        models to GLOD, with evaluation conducted on repurposed binary graph classification datasets where one class 
-        is down-sampled as outlier. We find that ROC-AUC performance of the models changes significantly 
-        (“flips” from high to low) depending on which class is down-sampled. Interestingly, ROC-AUCs on these two 
-        variants approximately sum to 1 and their performance gap is amplified with increasing propagations. 
-        We carefully study the graph embedding space produced by propagation based models and find two driving factors: 
-        (1) disparity between within-class densities which is amplified by propagation, and 
-        (2) overlapping support (mixing of embeddings) across classes. Our study sheds light onto the effects of using 
-        graph propagation based models and classification datasets for outlier detection for the first time.
+        It is common practice of the outlier mining community to repurpose classification datasets toward evaluating various detection models. To that end, often a binary classification dataset is used, where samples from (typically, the larger) one of the classes are designated as the ‘inlier’ samples, and the other class is substantially down-sampled to create the (ground-truth) ‘outlier’ samples. In this study, we identify an intriguing issue with repurposing graph classification datasets for graph outlier detection in this manner. Surprisingly, the detection performance of outlier models depends significantly on which class is down-sampled; put differently, accuracy often “flips” from high to low depending on which of the classes is down-sampled to represent the outlier samples. The problem is notably exacerbated particularly for a certain family of propagation based outlier detection models. Through careful analysis, we show that this issue mainly stems from disparate within-class sample similarity – which is amplified by various propagation based models – that impacts key characteristics of inlier/outlier distributions and indirectly, the difficulty of the outlier detection task and hence performance outcomes. With this study, we aim to draw attention to this (to our knowledge) previously-unnoticed issue, as it has implications for fair and effective evaluation of detection models, and hope that it will motivate the design of better evaluation benchmarks for outlier detection. Finally, we discuss the possibly overarching implications of using propagation based models on datasets with disparate within-class sample similarity beyond outlier detection, specifically for graph classification and graph-level clustering tasks. 
 ---
 
 {% capture notice-text %}
@@ -115,7 +103,7 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 | Time (UTC+2) | Agenda |
 | ----------------- | ------------ |
 | **3:00-3:10pm**    | **Opening remarks** |
-| **3:10-3:30pm**    | **[Invited talk by Leman Akoglu](#Leman+Akoglu) (20 min)**: <br> Issues with Propagation Based Models for Graph-Level Outlier Detection |
+| **3:10-3:30pm**    | **[Invited talk by Leman Akoglu](#Leman+Akoglu) (20 min)**: <br> On Using Classification Datasets to Evaluate Graph Outlier Detection: Peculiar Observations and New Insights |
 | **3:30-4:00pm**    | **Contributed talks (12 min + 3-min Q&A for each):**<br>\- Reproducible Evaluations of Network Representation Learning Models Using EvalNE<br>\- Catastrophic Forgetting in Deep Graph Networks: an Introductory Benchmark for Graph Classification |
 | **4:00-4:05pm**    | **Break (5 min)** |
 | **4:05-4:40pm**    | **Spotlight talks (11 x 3 min)** |
