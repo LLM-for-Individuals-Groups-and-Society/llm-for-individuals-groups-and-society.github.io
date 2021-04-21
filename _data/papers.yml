@@ -33,7 +33,7 @@
   new_dataset: True
 
 - title: "Synthetic Graph Generation to Benchmark Graph Learning"
-  authors: "Anton Tsitsulin (University of Bonn); Benedek A Rozemberczki (The University of Edinburgh); John Palowitch (Google); Bryan Perozzi (Google Research)"
+  authors: "Anton Tsitsulin (University of Bonn); Benedek A Rozemberczki (The University of Edinburgh); John Palowitch (Google Research); Bryan Perozzi (Google Research)"
   abstract: "<p>Graph learning algorithms have attained state-of-the-art performance on many graph analysis tasks such as node classification, link prediction, and clustering. It has, however, become hard to track the field’s burgeoning progress. One reason is due to the very small number of datasets used in practice to benchmark the performance of graph learning algorithms. This shockingly small sample size (~10) allows for only limited scientific insight into the problem.</p> <p>In this work, we aim to address this deficiency. We propose to generate synthetic graphs, and study the behaviour of graph learning algorithms in a controlled scenario. We develop a fully-featured synthetic graph generator that allows deep inspection of different models. We argue that synthetic graph generations allows for thorough investigation of algorithms and provides more insights than overfitting on three citation datasets. In the case study, we show how our framework provides insight into unsupervised and supervised graph neural network models.</p>"
   PDF: assets/papers/GLB_Synthetic_Graph_Generation_Benchmark.pdf
   code: https://github.com/google-research/google-research/tree/master/graph_embedding/simulations
