@@ -1,7 +1,7 @@
 ---
 permalink: /glb2022
 title: "Workshop on Graph Learning Benchmarks <br>(GLB 2022)"
-browser-title: "Home"
+browser-title: "GLB 2022"
 masthead-title: "GLB 2022"
 masthead-subtitle: "@TheWebConf 2022"
 masthead-url: "/"
