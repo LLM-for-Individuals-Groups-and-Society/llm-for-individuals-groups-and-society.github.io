@@ -1,11 +1,26 @@
 ---
+permalink: /glb2021/
 title: "Workshop on Graph Learning Benchmarks <br>(GLB 2021)"
 browser-title: "Home"
+masthead-title: "GLB 2021"
+masthead-subtitle: "@TheWebConf 2021"
+masthead-url: "/glb2021/"
+navigation: 
+  - title: "Schedule"
+    url: /glb2021/#schedule
+  - title: "Invited Speakers"
+    url: /glb2021/#invited-speakers
+  - title: "Accepted Papers"
+    url: /glb2021/#accepted-papers
+  - title: "Organization"
+    url: /glb2021/#organizers
+  - title: "GLB 2022"
+    url: /
 layout: splash
 author_profile: false
 header:
     overlay_color: "#000"
-    overlay_filter: "0.5"
+    overlay_filter: "0.9"
     overlay_image: /assets/images/glb-bg.jpg
 organizers: # Not ready yet
     - image_path: /assets/images/danai.jpg
@@ -68,11 +83,15 @@ invited-talk:
         It is common practice of the outlier mining community to repurpose classification datasets toward evaluating various detection models. To that end, often a binary classification dataset is used, where samples from (typically, the larger) one of the classes are designated as the ‘inlier’ samples, and the other class is substantially down-sampled to create the (ground-truth) ‘outlier’ samples. In this study, we identify an intriguing issue with repurposing graph classification datasets for graph outlier detection in this manner. Surprisingly, the detection performance of outlier models depends significantly on which class is down-sampled; put differently, accuracy often “flips” from high to low depending on which of the classes is down-sampled to represent the outlier samples. The problem is notably exacerbated particularly for a certain family of propagation based outlier detection models. Through careful analysis, we show that this issue mainly stems from disparate within-class sample similarity – which is amplified by various propagation based models – that impacts key characteristics of inlier/outlier distributions and indirectly, the difficulty of the outlier detection task and hence performance outcomes. With this study, we aim to draw attention to this (to our knowledge) previously-unnoticed issue, as it has implications for fair and effective evaluation of detection models, and hope that it will motivate the design of better evaluation benchmarks for outlier detection. Finally, we discuss the possibly overarching implications of using propagation based models on datasets with disparate within-class sample similarity beyond outlier detection, specifically for graph classification and graph-level clustering tasks. 
 ---
 
-{% capture notice-text %}
+<!-- {% capture notice-text %}
 **To join our workshop on live**: visit our room at the [MiTeam Platform](https://theweb.miteam.eu/asset/9Ffmuifa4MAzKPa6o) at TheWebConf 2021!
+{% endcapture %} -->
+
+{% capture notice-text %}
+**You are viewing the archived site for GLB 2021.** To learn more on the latest edition of the workshop, [click here](/).
 {% endcapture %}
 
-<div class="notice--info">
+<div class="notice--warning">
   <!-- <h4 class="no_toc">Notice Headline:</h4> -->
   {{ notice-text | markdownify }}
 </div>
@@ -94,7 +113,7 @@ we call for contributions that introduce novel ML tasks or novel graph-structure
 (i) help understand the performance and limitations of graph representation models on diverse sets of problems and 
 (ii) support benchmark evaluations for various models.
 
-Our previous call for papers can be found [here](/call-for-papers). 
+Our previous call for papers can be found [here](./call-for-papers). 
 
 # Schedule
 

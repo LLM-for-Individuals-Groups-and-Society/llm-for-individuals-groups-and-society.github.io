@@ -2,15 +2,18 @@
 main:
   - title: "Overview"
     url: /#Overview
-  - title: "Schedule"
-    url: /#schedule
-  - title: "Invited Speakers"
-    url: /#invited-speakers
-  - title: "Accepted Papers"
-    url: /#accepted-papers
+  # - title: "Schedule"
+  #   url: /#schedule
+  # - title: "Invited Speakers"
+  #   url: /#invited-speakers
+  # - title: "Accepted Papers"
+  #   url: /#accepted-papers
   - title: "Organization"
     url: /#organizers
+  - title: "GLB 2021"
+    url: /glb2021
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+

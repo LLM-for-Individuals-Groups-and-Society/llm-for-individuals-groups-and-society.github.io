@@ -1,4 +1,5 @@
 ---
+permalink: /call-for-papers
 title: "Call for Papers"
 layout: splash
 # classes: wide
