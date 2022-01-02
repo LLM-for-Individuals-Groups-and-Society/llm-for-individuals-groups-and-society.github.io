@@ -1,7 +1,5 @@
 ---
-permalink: /
-redirect_from: 
-  - /glb2022
+permalink: /glb2022
 title: "Workshop on Graph Learning Benchmarks <br>(GLB 2022)"
 browser-title: "Home"
 masthead-title: "GLB 2022"
@@ -93,12 +91,33 @@ var startTime = moment("2021-04-16T13:00:00Z");
 var tzTime = startTime.tz(currTz)
 </script>
 
-# Overview
+# Call for Papers
 
-Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks, 
+GLB 2022 is the second edition of the Workshop of the Graph Learning Benchmarks, encouraged by the success of [GLB 2021](/glb2021). 
+Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks,
+we propose call for contributions that establish novel ML tasks on novel graph-structured data which have the potential to 
+(i) identifying systematic failure modes of existing GNNs and providing new technical challenges for the development of new models which highlight diverse future directions, 
+(ii) raising the attention of the synergy of graph learning, and
+(iii) crowdsourcing benchmark datasets for various tasks of graph ML.
+
+<!-- Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks, 
 we call for contributions that introduce novel ML tasks or novel graph-structured data which have the potential to 
 (i) help understand the performance and limitations of graph representation models on diverse sets of problems and 
-(ii) support benchmark evaluations for various models.
+(ii) support benchmark evaluations for various models. -->
+
+We especially (but not exclusively) call for submissions which will contribute to at least one of the following:
+
+- **Real-World Datasets**: Novel real-world graph-structured datasets---especially large-scale, application-oriented, and publicly accessible datasets. 
+- **Synthetic Datasets** (*New*): Synthetic graph-structured datasets that are well-supported by graph theory, network science, or empirical studies, and can be used to reveal limitations of existing graph learning methods.
+- **Software Packages**: Software packages which enable streamlined benchmarking large-scale online graphs, crawling or crowdsourcing of graph data, and generation of realistic synthetic graphs. 
+- **Tasks**: New learning tasks and applications on different types of graphs, at different levels (e.g., node, edge, and (sub)graph), with a special focus on real-world and industry-oriented problems.
+- **Metrics**: New evaluation procedures and metrics of graph learning associated with the various tasks and datasets. 
+- **Benchmarks**: Works benchmarking multiple existing GNNs on non-trivial tasks and datasets. We explicitly encourage works that reveal limitations of existing models or optimize matches between network designs and problems. 
+- **Task Taxonomy** (*New*): Discussions towards a more comprehensive and fine-grained taxonomy of graph learning tasks.
+
+The acceptance of the contributed papers will be decided on the meaningfulness of the established graph learning tasks or datasets and their potential of being formalized into new benchmarks, rather than the performance of ML models (old or new) on these tasks. We particularly welcome contributions of **negative results** of popular, state-of-the-art models on a new task or dataset, as these provide novel insights to the community’s understanding of the meta-knowledge of graph ML. 
+
+*We will provide more updates on the submission deadlines and instructions.*
 
 <!-- Our previous call for papers can be found [here](/call-for-papers).  -->
 
@@ -155,9 +174,8 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 {% capture organizers %}
 - **[Jiaqi Ma](http://www.jiaqima.com/)** (University of Michigan)
 - **[Jiong Zhu](https://www.jiongzhu.net/)** (University of Michigan)
-- **[Yuxiao Dong](https://ericdongyx.github.io/)** (Facebook AI)
-- **[Danai Koutra](https://web.eecs.umich.edu/~dkoutra/)** (University of Michigan)
-- **[Qiaozhu Mei](http://www-personal.umich.edu/~qmei/)** (University of Michigan)
+- **[Anton Tsitsulin](http://tsitsul.in/)** (Google Research)
+- **[Marinka Zitnik](https://zitniklab.hms.harvard.edu/bio/)** (Harvard University)
 {% endcapture %}
 
 <div class="small">
@@ -165,7 +183,18 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 </div>
 <!-- {% include feature_row id="organizers" %} -->
 
-# Program Committee
+# Advisory Board
+{% capture advisory-board %}
+- **[Yuxiao Dong](https://ericdongyx.github.io/)** (Facebook AI)
+- **[Danai Koutra](https://web.eecs.umich.edu/~dkoutra/)** (University of Michigan)
+- **[Qiaozhu Mei](http://www-personal.umich.edu/~qmei/)** (University of Michigan)
+{% endcapture %}
+
+<div class="small">
+{{ advisory-board | markdownify }}
+</div>
+
+<!-- # Program Committee
 <div class="small row-two-columns">
 <div class="column-half">
 <ul>
@@ -198,4 +227,4 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
         }
     });
     }
-</script>
+</script> -->

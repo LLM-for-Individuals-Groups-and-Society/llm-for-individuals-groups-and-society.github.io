@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Overview"
-    url: /#Overview
+  - title: "CfP"
+    url: /glb2022/#call-for-papers
   # - title: "Schedule"
   #   url: /#schedule
   # - title: "Invited Speakers"
@@ -9,7 +9,7 @@ main:
   # - title: "Accepted Papers"
   #   url: /#accepted-papers
   - title: "Organization"
-    url: /#organizers
+    url: /glb2022/#organizers
   - title: "GLB 2021"
     url: /glb2021
   # - title: "Sample Collections"

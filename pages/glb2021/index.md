@@ -6,6 +6,8 @@ masthead-title: "GLB 2021"
 masthead-subtitle: "@TheWebConf 2021"
 masthead-url: "/glb2021/"
 navigation: 
+  - title: "CfP"
+    url: /glb2021/call-for-papers
   - title: "Schedule"
     url: /glb2021/#schedule
   - title: "Invited Speakers"
