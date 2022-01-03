@@ -95,7 +95,7 @@ var tzTime = startTime.tz(currTz)
 
 GLB 2022 is the second edition of the Workshop of the Graph Learning Benchmarks, encouraged by the success of [GLB 2021](/glb2021). 
 Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks,
-we propose call for contributions that establish novel ML tasks on novel graph-structured data which have the potential to 
+we call for contributions that establish novel ML tasks on novel graph-structured data which have the potential to 
 (i) identifying systematic failure modes of existing GNNs and providing new technical challenges for the development of new models which highlight diverse future directions, 
 (ii) raising the attention of the synergy of graph learning, and
 (iii) crowdsourcing benchmark datasets for various tasks of graph ML.
@@ -117,7 +117,22 @@ We especially (but not exclusively) call for submissions which will contribute t
 
 The acceptance of the contributed papers will be decided on the meaningfulness of the established graph learning tasks or datasets and their potential of being formalized into new benchmarks, rather than the performance of ML models (old or new) on these tasks. We particularly welcome contributions of **negative results** of popular, state-of-the-art models on a new task or dataset, as these provide novel insights to the community’s understanding of the meta-knowledge of graph ML. 
 
-*We will provide more updates on the submission deadlines and instructions.*
+## Important Dates
+- **Submission deadline**: Feb 28, 2022 (Anywhere on Earth)
+- **Acceptance notification**: Mar 21, 2022
+- **Camera-ready version due**: Apr 4, 2022
+
+## Submission
+Abstracts and papers can be submitted through CMT: <br>
+[https://cmt3.research.microsoft.com/GLB2022](https://cmt3.research.microsoft.com/GLB2022)
+
+## Format
+
+- A paper no longer than *4 pages* (excluding references and the appendices) using [the ACM “sigconf” LaTeX template](https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty) (see [the instruction by the Web Conference 2022](https://www2022.thewebconf.org/cfp/research/)). If your submission includes appendices, it is not necessary to submit the appendices as a separate PDF file.
+- This workshop is *non-archival*. Relevant findings that have been recently published are also welcome.
+- The submission is single-blinded for the ease of data/code sharing. The reviewers are anonymized but the authors do not need to be anonymized in the submission.
+- Authors are *strongly encouraged* to include the corresponding datasets and code as supplementary materials in their submission. For large datasets or repositories, the authors can provide an external link through Github, Google drive, Dropbox, OneDrive, or Box. We limit the choice of storage platforms for security considerations. Please email the organizers if none of the listed platforms works for you.
+- If the data cannot be made publicly available, an extra section is required to illustrate how the results of the established benchmark may generalize to other graph data.
 
 <!-- Our previous call for papers can be found [here](/call-for-papers).  -->
 
