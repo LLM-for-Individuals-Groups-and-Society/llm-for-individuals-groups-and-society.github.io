@@ -28,17 +28,17 @@ organizers: # Not ready yet
       alt: "Danai Koutra"
       excerpt: "**Danai Koutra**"
 panelists:
-    - image_path: assets/images/guennemann.jpg
+    - image_path: /assets/images/guennemann.jpg
       alt: "Stephan Günnemann"
       excerpt: >
         **Stephan Günnemann**<br>
         Technical University of Munich
-    - image_path: assets/images/yizhou.jpg
+    - image_path: /assets/images/yizhou.jpg
       alt: "Yizhou Sun"
       excerpt: >
         **Yizhou Sun**<br>
         University of California, Los Angeles
-    - image_path: assets/images/Jie.jpg
+    - image_path: /assets/images/Jie.jpg
       alt: "Jie Tang"
       excerpt: >
         **Jie Tang**<br>
