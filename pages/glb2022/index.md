@@ -1,6 +1,7 @@
 ---
 permalink: /glb2022
 title: "Workshop on Graph Learning Benchmarks <br>(GLB 2022)"
+excerpt: Apr. 26, 2022, Virtual
 browser-title: "GLB 2022"
 masthead-title: "GLB 2022"
 masthead-subtitle: "@TheWebConf 2022"
@@ -99,6 +100,7 @@ we call for contributions that establish novel ML tasks on novel graph-structure
 (i) identifying systematic failure modes of existing GNNs and providing new technical challenges for the development of new models which highlight diverse future directions, 
 (ii) raising the attention of the synergy of graph learning, and
 (iii) crowdsourcing benchmark datasets for various tasks of graph ML.
+GLB 2022 will be a **virtual** and **non-archival** workshop.
 
 <!-- Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks, 
 we call for contributions that introduce novel ML tasks or novel graph-structured data which have the potential to 
