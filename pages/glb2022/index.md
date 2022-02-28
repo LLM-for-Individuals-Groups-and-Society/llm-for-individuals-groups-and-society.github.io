@@ -74,13 +74,13 @@ invited-talk:
 ---
 
 {% capture notice-text %}
-**To join our workshop on live**: visit our room at the [MiTeam Platform](https://theweb.miteam.eu/asset/9Ffmuifa4MAzKPa6o) at TheWebConf 2021!
+**Update on Feb 27, 2022: We decided to extend the submission deadline for two weeks to Mar 14.** We are deeply aware of the chaos happening in the world right now. We are absolutely against the war, and our hearts go out to all people affected by the war, especially our Ukrainian and European colleagues. We hope the extension could help accommodate people who need more time to take care of themselves and their loved ones. Hope everyone stays safe in this difficult time. 
 {% endcapture %}
 
-<!-- <div class="notice--info">
-  <!-- <h4 class="no_toc">Notice Headline:</h4> ~~>
+<div class="notice--info">
+  <!-- <h4 class="no_toc">Notice Headline:</h4> -->
   {{ notice-text | markdownify }}
-</div> -->
+</div>
 
 <script>
 if (!sessionStorage.getItem('timezone')) {
@@ -120,9 +120,10 @@ We especially (but not exclusively) call for submissions which will contribute t
 The acceptance of the contributed papers will be decided on the meaningfulness of the established graph learning tasks or datasets and their potential of being formalized into new benchmarks, rather than the performance of ML models (old or new) on these tasks. We particularly welcome contributions of **negative results** of popular, state-of-the-art models on a new task or dataset, as these provide novel insights to the community’s understanding of the meta-knowledge of graph ML. 
 
 ## Important Dates
-- **Submission deadline**: Feb 28, 2022 (Anywhere on Earth)
-- **Acceptance notification**: Mar 21, 2022
-- **Camera-ready version due**: Apr 4, 2022
+- **Submission deadline**: ~~Feb 28, 2022~~ Mar 14, 2022 (Anywhere on Earth)
+- **Acceptance notification**: ~~Mar 21, 2022~~ Apr 4, 2022
+- **Camera-ready version due**: ~~Apr 4, 2022~~ Apr 18, 2022
+<!-- - **Workshop**: Apr. 26, 2022 -->
 
 ## Submission
 Abstracts and papers can be submitted through CMT: <br>
