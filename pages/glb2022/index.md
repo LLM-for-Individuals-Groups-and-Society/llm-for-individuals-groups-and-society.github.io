@@ -52,12 +52,7 @@ keynote: # Not ready yet
       excerpt: >
         ***University of Oxford & Twitter*** <br>
         **Graph Neural Networks: Trends and Open Problems**
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
       abstract: |
         Graph Neural Networks (GNNs) have become one of the hottest topics 
         in machine learning research due to their applicability across a broad range of fields. 
@@ -75,7 +70,8 @@ keynote: # Not ready yet
         and World Economic Forum Young Scientist. In addition to his academic career, Michael is a serial 
         entrepreneur and founder of multiple startup companies, including Novafora, Invision (acquired by Intel in 
         2012), Videocites, and Fabula AI (acquired by Twitter in 2019).
-    
+      
+      spaces: true
     
     - image_path: https://www.in.tum.de/fileadmin/_processed_/c/6/csm_guennemann3_904c51d801.jpg
       alt: "Stephan Günnemann"
@@ -83,12 +79,7 @@ keynote: # Not ready yet
       excerpt: >
         ***Technical University of Munich*** <br>
         **Graph Neural Networks for Molecular Systems - Methods and Benchmarks**
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
       abstract: |
         Effectively predicting molecular interactions has the 
         potential to accelerate molecular dynamics by multiple orders of 
@@ -116,6 +107,8 @@ keynote: # Not ready yet
         of Carnegie Mellon University, USA. Stephan has received a Google 
         Faculty Research Award and is a Junior-Fellow of the German Computer 
         Science Society.
+      
+      spaces: true
 
     - image_path: http://eliassi.org/tina2016highres.png
       alt: "Tina Eliassi-Rad"
@@ -123,12 +116,6 @@ keynote: # Not ready yet
       excerpt: >
         ***Northeastern University*** <br>
         **The Why, How, and When of Representations for Complex Systems**
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       abstract: |
         The theme of the 2021 Nobel Prize in Physics was the study of complex systems. At the most basic level, complex systems consist of units and their interactions (i.e., graph structures). In this talk, I will describe each step of a data analysis pipeline suitable for the study of complex systems: from the system dependencies that can manifest themselves in different flavors (temporal, subset, and spatial) to the common mathematical representations (such as graphs, simplicial complexes, and hypergraphs), their underlying assumptions, and the dependencies they encode. I will discuss the mathematical relationships between representations and explain how information can be lost (or imputed) when we convert data from one representation to another. I will use examples to highlight the importance of dependencies and careful choice of representations and algorithms when studying complex systems. The main message of the talk is that there is no perfect way to analyze a complex system, and that modeling decisions made when examining a data set from one system are not necessarily transferable to another system, or even to another data set from the same system. Yet, I see many studies apply certain pipelines for seemingly no other reason than because they are common in a particular field. Instead, I recommend evaluating and studying each new complex system and dataset individually and questioning each assumption and modeling decision. 
         
@@ -138,6 +125,7 @@ keynote: # Not ready yet
       bio: |
         Tina Eliassi-Rad is a Professor of Computer Science at Northeastern University. She is also a core faculty at Northeastern's Network Science Institute and Institute for Experiential AI. In addition, she is an external faculty at Santa Fe Institute and Vermont Complex Systems Center. Tina’s research is at the intersection of data mining, machine learning, and network science. Her work has been applied to personalized search on the World-Wide Web, statistical indices of large-scale scientific simulation data, fraud detection, mobile ad targeting, cyber situational awareness, and ethics in machine learning. Tina's algorithms have been incorporated into systems used by governments, industry, and open-source software. Tina received an Outstanding Mentor Award from the Office of Science at the US Department of Energy in 2010; became a Fellow of the ISI Foundation (Turin, Italy) in 2019; and was named one of the 100 Brilliant Women in AI Ethics for 2021.
 
+      spaces: true
 ---
 
 {% capture notice-text %}
