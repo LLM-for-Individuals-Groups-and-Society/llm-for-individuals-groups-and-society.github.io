@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "CfP"
-    url: /glb2022#call-for-papers
+    url: /glb2022/call-for-papers
   # - title: "Schedule"
   #   url: /#schedule
-  # - title: "Invited Speakers"
-  #   url: /#invited-speakers
+  - title: "Keynote Speakers"
+    url: /glb2022/#keynote-speakers
   # - title: "Accepted Papers"
   #   url: /#accepted-papers
   - title: "Organization"

@@ -46,41 +46,108 @@ panelists:
         Tsinghua University
 
 keynote: # Not ready yet
-    - image_path: /assets/images/jure.jpg
-      alt: "Jure Leskovec"
-      title: "Jure Leskovec"
+    - image_path: https://www.cs.ox.ac.uk/files/13446//michael%20-%20passport.jpg
+      alt: "Michael Bronstein"
+      title: "Michael Bronstein"
       excerpt: >
-        ***Stanford University***
+        ***University of Oxford & Twitter*** <br>
+        **Graph Neural Networks: Trends and Open Problems**
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      abstract: |
+        Graph Neural Networks (GNNs) have become one of the hottest topics 
+        in machine learning research due to their applicability across a broad range of fields. 
+        In this talk, I will overview the recent trends and open problems in GNNs and their applications. 
+      
+      bio: |
+        Michael Bronstein is the DeepMind Professor of AI at the University of Oxford and Head of Graph 
+        Learning Research at Twitter. He was previously a professor at Imperial College London and held 
+        visiting appointments at Stanford, MIT, and Harvard, and has also been affiliated with three Institutes 
+        for Advanced Study (at TUM as a Rudolf Diesel Fellow (2017-2019), at Harvard as a Radcliffe fellow 
+        (2017-2018), and at Princeton as a short-time scholar (2020)). Michael received his PhD from the Technion 
+        in 2007. He is the recipient of the Royal Society Wolfson Research Merit Award, Royal Academy of Engineering
+        Silver Medal, five ERC grants, two Google Faculty Research Awards, and two Amazon AWS ML Research Awards. 
+        He is a Member of the Academia Europaea, Fellow of IEEE, IAPR, BCS, and ELLIS, ACM Distinguished Speaker,
+        and World Economic Forum Young Scientist. In addition to his academic career, Michael is a serial 
+        entrepreneur and founder of multiple startup companies, including Novafora, Invision (acquired by Intel in 
+        2012), Videocites, and Fabula AI (acquired by Twitter in 2019).
+    
+    
+    - image_path: https://www.in.tum.de/fileadmin/_processed_/c/6/csm_guennemann3_904c51d801.jpg
+      alt: "Stephan Günnemann"
+      title: "Stephan Günnemann"
+      excerpt: >
+        ***Technical University of Munich*** <br>
+        **Graph Neural Networks for Molecular Systems - Methods and Benchmarks**
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      abstract: |
+        Effectively predicting molecular interactions has the 
+        potential to accelerate molecular dynamics by multiple orders of 
+        magnitude and thus revolutionize chemical simulations. Graph neural 
+        networks (GNNs) have recently shown great successes for this task. In 
+        this talk, I present recent advances in GNNs for molecular systems 
+        specifically incorporating the aspect of directionality. Moreover, I 
+        will shed light on current evaluation practices and potential 
+        limitations in generalization performance of GNNs for diverse molecular 
+        systems. I will highlight aspects of
+        complexity in which many datasets are lacking and discuss novel 
+        benchmark datasets.
+      
+      bio: |
+        Stephan Günnemann is a Professor at the Department of Informatics, 
+        Technical University of Munich and Director of the Munich Data Science 
+        Institute. His main research focuses on reliable machine learning for 
+        graphs and temporal data. Prof. Günnemann is particularly interested in 
+        graph neural networks and their application for, e.g., molecular 
+        modelling. His works on subspace clustering on graphs as well as 
+        adversarial robustness of graph neural networks have received the best 
+        research paper awards at ECML-PKDD and KDD.
+        Stephan acquired his doctoral degree at RWTH Aachen University, Germany 
+        in the field of computer science. From 2012 to 2015 he was an associate 
+        of Carnegie Mellon University, USA. Stephan has received a Google 
+        Faculty Research Award and is a Junior-Fellow of the German Computer 
+        Science Society.
 
-
-        **Open Graph Benchmark Large-Scale Challenge**
+    - image_path: http://eliassi.org/tina2016highres.png
+      alt: "Tina Eliassi-Rad"
+      title: "Tina Eliassi-Rad"
+      excerpt: >
+        ***Northeastern University*** <br>
+        **The Why, How, and When of Representations for Complex Systems**
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      abstract: |
+        The theme of the 2021 Nobel Prize in Physics was the study of complex systems. At the most basic level, complex systems consist of units and their interactions (i.e., graph structures). In this talk, I will describe each step of a data analysis pipeline suitable for the study of complex systems: from the system dependencies that can manifest themselves in different flavors (temporal, subset, and spatial) to the common mathematical representations (such as graphs, simplicial complexes, and hypergraphs), their underlying assumptions, and the dependencies they encode. I will discuss the mathematical relationships between representations and explain how information can be lost (or imputed) when we convert data from one representation to another. I will use examples to highlight the importance of dependencies and careful choice of representations and algorithms when studying complex systems. The main message of the talk is that there is no perfect way to analyze a complex system, and that modeling decisions made when examining a data set from one system are not necessarily transferable to another system, or even to another data set from the same system. Yet, I see many studies apply certain pipelines for seemingly no other reason than because they are common in a particular field. Instead, I recommend evaluating and studying each new complex system and dataset individually and questioning each assumption and modeling decision. 
         
         
-        We first present the [Open Graph Benchmark (OGB)](https://ogb.stanford.edu), a diverse set of challenging and realistic benchmark datasets to facilitate scalable, robust, and reproducible graph machine learning (ML) research. OGB datasets are larger than existing graph benchmarks, encompass multiple important graph ML tasks, and cover a diverse range of domains. We then present OGB’s new initiative on a Large-Scale Challenge ([OGB-LSC](https://ogb.stanford.edu/kddcup2021)) at the KDD Cup 2021. OGB-LSC provides datasets that represent modern industrial-scale large graphs. We provide dedicated baseline experiments, scaling up expressive graph ML models to the massive datasets. We show that the expressive models significantly outperform simple scalable baselines, indicating an opportunity for dedicated efforts to further improve graph ML at scale.
+        This talk is based on the following paper: Leo Torres, Ann Sizemore Blevins, Danielle S. Bassett, Tina Eliassi-Rad: The Why, How, and When of Representations for Complex Systems. SIAM Review 63(3): 435-485 (2021).
+      
+      bio: |
+        Tina Eliassi-Rad is a Professor of Computer Science at Northeastern University. She is also a core faculty at Northeastern's Network Science Institute and Institute for Experiential AI. In addition, she is an external faculty at Santa Fe Institute and Vermont Complex Systems Center. Tina’s research is at the intersection of data mining, machine learning, and network science. Her work has been applied to personalized search on the World-Wide Web, statistical indices of large-scale scientific simulation data, fraud detection, mobile ad targeting, cyber situational awareness, and ethics in machine learning. Tina's algorithms have been incorporated into systems used by governments, industry, and open-source software. Tina received an Outstanding Mentor Award from the Office of Science at the US Department of Energy in 2010; became a Fellow of the ISI Foundation (Turin, Italy) in 2019; and was named one of the 100 Brilliant Women in AI Ethics for 2021.
 
-invited-talk: 
-    - image_path: /assets/images/leman.jpg
-      alt: "Leman Akoglu"
-      title: "Leman Akoglu"
-      excerpt: >
-        ***Carnegie Mellon University***
-
-
-        **On Using Classification Datasets to Evaluate Graph Outlier Detection: Peculiar Observations and New Insights**
-
-
-        **Abstract**: 
-        It is common practice of the outlier mining community to repurpose classification datasets toward evaluating various detection models. To that end, often a binary classification dataset is used, where samples from (typically, the larger) one of the classes are designated as the ‘inlier’ samples, and the other class is substantially down-sampled to create the (ground-truth) ‘outlier’ samples. In this study, we identify an intriguing issue with repurposing graph classification datasets for graph outlier detection in this manner. Surprisingly, the detection performance of outlier models depends significantly on which class is down-sampled; put differently, accuracy often “flips” from high to low depending on which of the classes is down-sampled to represent the outlier samples. The problem is notably exacerbated particularly for a certain family of propagation based outlier detection models. Through careful analysis, we show that this issue mainly stems from disparate within-class sample similarity – which is amplified by various propagation based models – that impacts key characteristics of inlier/outlier distributions and indirectly, the difficulty of the outlier detection task and hence performance outcomes. With this study, we aim to draw attention to this (to our knowledge) previously-unnoticed issue, as it has implications for fair and effective evaluation of detection models, and hope that it will motivate the design of better evaluation benchmarks for outlier detection. Finally, we discuss the possibly overarching implications of using propagation based models on datasets with disparate within-class sample similarity beyond outlier detection, specifically for graph classification and graph-level clustering tasks. 
 ---
 
 {% capture notice-text %}
 **Update on Feb 27, 2022: We decided to extend the submission deadline for two weeks to Mar 14.** We are deeply aware of the chaos happening in the world right now. We are absolutely against the war, and our hearts go out to all people affected by the war, especially our Ukrainian and European colleagues. We hope the extension could help accommodate people who need more time to take care of themselves and their loved ones. Hope everyone stays safe in this difficult time. 
 {% endcapture %}
 
-<div class="notice--info">
-  <!-- <h4 class="no_toc">Notice Headline:</h4> -->
+<!-- <div class="notice--info">
+  <!-- <h4 class="no_toc">Notice Headline:</h4> ~~>
   {{ notice-text | markdownify }}
-</div>
+</div> -->
 
 <script>
 if (!sessionStorage.getItem('timezone')) {
@@ -92,7 +159,7 @@ var startTime = moment("2021-04-16T13:00:00Z");
 var tzTime = startTime.tz(currTz)
 </script>
 
-# Call for Papers
+# Overview
 
 GLB 2022 is the second edition of the Workshop of the Graph Learning Benchmarks, encouraged by the success of [GLB 2021](/glb2021). 
 Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks,
@@ -107,37 +174,7 @@ we call for contributions that introduce novel ML tasks or novel graph-structure
 (i) help understand the performance and limitations of graph representation models on diverse sets of problems and 
 (ii) support benchmark evaluations for various models. -->
 
-We especially (but not exclusively) call for submissions which will contribute to at least one of the following:
-
-- **Real-World Datasets**: Novel real-world graph-structured datasets---especially large-scale, application-oriented, and publicly accessible datasets. 
-- **Synthetic Datasets** (*New*): Synthetic graph-structured datasets that are well-supported by graph theory, network science, or empirical studies, and can be used to reveal limitations of existing graph learning methods.
-- **Software Packages**: Software packages which enable streamlined benchmarking large-scale online graphs, crawling or crowdsourcing of graph data, and generation of realistic synthetic graphs. 
-- **Tasks**: New learning tasks and applications on different types of graphs, at different levels (e.g., node, edge, and (sub)graph), with a special focus on real-world and industry-oriented problems.
-- **Metrics**: New evaluation procedures and metrics of graph learning associated with the various tasks and datasets. 
-- **Benchmarks**: Works benchmarking multiple existing GNNs on non-trivial tasks and datasets. We explicitly encourage works that reveal limitations of existing models or optimize matches between network designs and problems. 
-- **Task Taxonomy** (*New*): Discussions towards a more comprehensive and fine-grained taxonomy of graph learning tasks.
-
-The acceptance of the contributed papers will be decided on the meaningfulness of the established graph learning tasks or datasets and their potential of being formalized into new benchmarks, rather than the performance of ML models (old or new) on these tasks. We particularly welcome contributions of **negative results** of popular, state-of-the-art models on a new task or dataset, as these provide novel insights to the community’s understanding of the meta-knowledge of graph ML. 
-
-## Important Dates
-- **Submission deadline**: ~~Feb 28, 2022~~ Mar 14, 2022 (Anywhere on Earth)
-- **Acceptance notification**: ~~Mar 21, 2022~~ Apr 4, 2022
-- **Camera-ready version due**: ~~Apr 4, 2022~~ Apr 18, 2022
-<!-- - **Workshop**: Apr. 26, 2022 -->
-
-## Submission
-Abstracts and papers can be submitted through CMT: <br>
-[https://cmt3.research.microsoft.com/GLB2022](https://cmt3.research.microsoft.com/GLB2022)
-
-## Format
-
-- For unpublished submissions, please submit a paper no longer than *4 pages* (excluding references and the appendices) using [the ACM “sigconf” LaTeX template](https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty) (see [the instruction by the Web Conference 2022](https://www2022.thewebconf.org/cfp/research/)). If your submission includes appendices, it is not necessary to submit the appendices as a separate PDF file.
-- This workshop is *non-archival*. Relevant findings that have been recently published are also welcome. For already published submissions, the paper can be submitted in the original format. These submissions will be very lightly reviewed for their relevance to this workshop.
-- The submission is single-blinded for the ease of data/code sharing. The reviewers are anonymized but the authors do not need to be anonymized in the submission.
-- Authors are *strongly encouraged* to include the corresponding datasets and code as supplementary materials in their submission. For large datasets or repositories, the authors can provide an external link through Github, Google drive, Dropbox, OneDrive, or Box. We limit the choice of storage platforms for security considerations. Please email the organizers if none of the listed platforms works for you.
-- If the data cannot be made publicly available, an extra section is required to illustrate how the results of the established benchmark may generalize to other graph data.
-
-<!-- Our previous call for papers can be found [here](/call-for-papers).  -->
+Our previous call for papers can be found [here](./call-for-papers). 
 
 <!-- # Schedule
 
@@ -160,10 +197,10 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
   document.getElementById("viewerTime").innerHTML = " (" + tzTime.format('MMM DD h:mma z') + ")"
 </script>
 
-<!-- # Invited Speakers
+# Keynote Speakers
 
 {% include feature_row id="keynote" type="left" %}
-{% include feature_row id="invited-talk" type="left" %} -->
+<!-- {% include feature_row id="invited-talk" type="left" %} -->
 
 <!-- # Panelists
 {% include feature_row id="panelists" %} -->
@@ -228,7 +265,7 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 {% endfor %}
 </ul>
 </div>
-</div>
+</div> -->
 
 <script>
     var coll = document.getElementsByClassName("collapsible");
@@ -245,4 +282,4 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
         }
     });
     }
-</script> -->
+</script>
