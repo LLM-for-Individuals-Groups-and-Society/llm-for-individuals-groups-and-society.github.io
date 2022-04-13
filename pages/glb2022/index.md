@@ -49,16 +49,16 @@ keynote: # Not ready yet
     - image_path: https://www.cs.ox.ac.uk/files/13446//michael%20-%20passport.jpg
       alt: "Michael Bronstein"
       title: "Michael Bronstein"
-      excerpt: >
+      excerpt: |
         ***University of Oxford & Twitter*** <br>
         **Graph Neural Networks: Trends and Open Problems**
 
-      abstract: |
+      abstract: >
         Graph Neural Networks (GNNs) have become one of the hottest topics 
         in machine learning research due to their applicability across a broad range of fields. 
         In this talk, I will overview the recent trends and open problems in GNNs and their applications. 
       
-      bio: |
+      bio: >
         Michael Bronstein is the DeepMind Professor of AI at the University of Oxford and Head of Graph 
         Learning Research at Twitter. He was previously a professor at Imperial College London and held 
         visiting appointments at Stanford, MIT, and Harvard, and has also been affiliated with three Institutes 
@@ -76,11 +76,11 @@ keynote: # Not ready yet
     - image_path: https://www.in.tum.de/fileadmin/_processed_/c/6/csm_guennemann3_904c51d801.jpg
       alt: "Stephan Günnemann"
       title: "Stephan Günnemann"
-      excerpt: >
+      excerpt: |
         ***Technical University of Munich*** <br>
         **Graph Neural Networks for Molecular Systems - Methods and Benchmarks**
 
-      abstract: |
+      abstract: >
         Effectively predicting molecular interactions has the 
         potential to accelerate molecular dynamics by multiple orders of 
         magnitude and thus revolutionize chemical simulations. Graph neural 
@@ -113,7 +113,7 @@ keynote: # Not ready yet
     - image_path: http://eliassi.org/tina2016highres.png
       alt: "Tina Eliassi-Rad"
       title: "Tina Eliassi-Rad"
-      excerpt: >
+      excerpt: |
         ***Northeastern University*** <br>
         **The Why, How, and When of Representations for Complex Systems**
       abstract: >
@@ -122,7 +122,7 @@ keynote: # Not ready yet
         
         This talk is based on the following paper: Leo Torres, Ann Sizemore Blevins, Danielle S. Bassett, Tina Eliassi-Rad: The Why, How, and When of Representations for Complex Systems. SIAM Review 63(3): 435-485 (2021).
       
-      bio: |
+      bio: >
         Tina Eliassi-Rad is a Professor of Computer Science at Northeastern University. She is also a core faculty at Northeastern's Network Science Institute and Institute for Experiential AI. In addition, she is an external faculty at Santa Fe Institute and Vermont Complex Systems Center. Tina’s research is at the intersection of data mining, machine learning, and network science. Her work has been applied to personalized search on the World-Wide Web, statistical indices of large-scale scientific simulation data, fraud detection, mobile ad targeting, cyber situational awareness, and ethics in machine learning. Tina's algorithms have been incorporated into systems used by governments, industry, and open-source software. Tina received an Outstanding Mentor Award from the Office of Science at the US Department of Energy in 2010; became a Fellow of the ISI Foundation (Turin, Italy) in 2019; and was named one of the 100 Brilliant Women in AI Ethics for 2021.
 
       spaces: true
