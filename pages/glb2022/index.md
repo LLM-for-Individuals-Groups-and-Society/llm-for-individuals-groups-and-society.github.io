@@ -93,7 +93,7 @@ keynote: # Not ready yet
         complexity in which many datasets are lacking and discuss novel 
         benchmark datasets.
       
-      bio: |
+      bio: >
         Stephan Günnemann is a Professor at the Department of Informatics, 
         Technical University of Munich and Director of the Munich Data Science 
         Institute. His main research focuses on reliable machine learning for 
@@ -116,7 +116,7 @@ keynote: # Not ready yet
       excerpt: >
         ***Northeastern University*** <br>
         **The Why, How, and When of Representations for Complex Systems**
-      abstract: |
+      abstract: >
         The theme of the 2021 Nobel Prize in Physics was the study of complex systems. At the most basic level, complex systems consist of units and their interactions (i.e., graph structures). In this talk, I will describe each step of a data analysis pipeline suitable for the study of complex systems: from the system dependencies that can manifest themselves in different flavors (temporal, subset, and spatial) to the common mathematical representations (such as graphs, simplicial complexes, and hypergraphs), their underlying assumptions, and the dependencies they encode. I will discuss the mathematical relationships between representations and explain how information can be lost (or imputed) when we convert data from one representation to another. I will use examples to highlight the importance of dependencies and careful choice of representations and algorithms when studying complex systems. The main message of the talk is that there is no perfect way to analyze a complex system, and that modeling decisions made when examining a data set from one system are not necessarily transferable to another system, or even to another data set from the same system. Yet, I see many studies apply certain pipelines for seemingly no other reason than because they are common in a particular field. Instead, I recommend evaluating and studying each new complex system and dataset individually and questioning each assumption and modeling decision. 
         
         
