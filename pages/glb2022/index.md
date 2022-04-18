@@ -162,7 +162,7 @@ we call for contributions that introduce novel ML tasks or novel graph-structure
 (i) help understand the performance and limitations of graph representation models on diverse sets of problems and 
 (ii) support benchmark evaluations for various models. -->
 
-Our previous call for papers can be found [here](./call-for-papers). 
+Our previous call for papers can be found [here](/glb2022/call-for-papers). 
 
 <!-- # Schedule
 
