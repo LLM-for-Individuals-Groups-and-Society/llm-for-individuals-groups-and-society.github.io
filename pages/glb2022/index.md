@@ -179,7 +179,7 @@ we call for contributions that introduce novel ML tasks or novel graph-structure
 Our previous call for papers can be found [here](/glb2022/call-for-papers). 
 
 # Registration
-Please [register for The Web Conference 2022](https://www2022.thewebconf.org/registration/) to join our workshop. A "Monday & Tuesday only" access (100 €) would be sufficient for joining us, including for the authors who are presenting their papers. We do not require the authors to be registered with the "Author" pass (250 € / 300 €). 
+Please [register for The Web Conference 2022](https://www2022.thewebconf.org/registration/) to join our workshop. A "Monday & Tuesday only" access (100 €) would be sufficient for joining us, including for the authors who are presenting. We do not require the authors to register with the "Author" pass (250 € / 300 €). 
 
 
 # Schedule
@@ -198,7 +198,7 @@ All the time listed below are in the time of Lyon, France (Central European Summ
 | **15:45-16:35**    | **[Keynote by Tina Eliassi-Rad](#Tina+Eliassi-Rad) (50 min)**: <br> The Why, How, and When of Representations for Complex Systems |
 | **16:35-17:15**    | **Paper Presentation - Session 3 (40 min)** |
 | **17:15-18:15**    | **Break (Plenary Talk at TheWebConf) (60 min)** |
-| **18:15-19:15**    | **Panel Discussion (60 min)** |
+| **18:15-19:15**    | **[Panel Discussion](#panelists) (60 min)** |
 | **19:15-19:30**    | **Closing Remarks** |
 
 <script>
