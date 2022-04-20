@@ -29,24 +29,38 @@ organizers: # Not ready yet
       alt: "Danai Koutra"
       excerpt: "**Danai Koutra**"
 panelists:
-    - image_path: /assets/images/guennemann.jpg
-      alt: "Stephan Günnemann"
+    - image_path: /assets/images/glb2022/xin.jpeg
+      alt: "Xin Luna Dong"
       excerpt: >
-        **Stephan Günnemann**<br>
-        Technical University of Munich
-    - image_path: /assets/images/yizhou.jpg
-      alt: "Yizhou Sun"
+        **Xin Luna Dong**<br>
+        Meta
+      bio: >
+        Xin Luna Dong is the Head Scientist at Facebook AR/VR Assistant. Prior to joining Facebook, she was a Senior Principal Scientist at Amazon, leading the efforts of constructing Amazon Product Knowledge Graph, and before that one of the major contributors to the Google Knowledge Vault project, and has led the Knowledge-based Trust project, which is called the “Google Truth Machine” by Washington’s Post. She has co-authored books "Machine Knowledge: Creation and Curation of Comprehensive Knowledge Bases" and “Big Data Integration”, was awarded ACM Distinguished Member, and VLDB Early Career Research Contribution Award for “Advancing the state of the art of knowledge fusion”. She serves in the VLDB endowment and PVLDB advisory committee, and is a PC co-chair for KDD'2022 ADS track, WSDM 2022, VLDB 2021, and Sigmod 2018.
+    
+    - image_path: /assets/images/glb2022/petar.jpg
+      alt: "Petar Veličković"
       excerpt: >
-        **Yizhou Sun**<br>
-        University of California, Los Angeles
-    - image_path: /assets/images/Jie.jpg
-      alt: "Jie Tang"
+        **Petar Veličković**<br>
+        DeepMind & University of Cambridge
+      bio: >
+        Petar Veličković is a Staff Research Scientist at DeepMind, Affiliated Lecturer at the University of Cambridge, and an Associate of Clare Hall, Cambridge. He holds a PhD in Computer Science from the University of Cambridge (Trinity College), obtained under the supervision of Pietro Liò. Petar's research concerns geometric deep learning—devising neural network architectures that respect the invariances and symmetries in data (a topic he's co-written a proto-book about). For his contributions to the area, Petar is recognised as an ELLIS Scholar in the Geometric Deep Learning Program. Within this area, Petar focusses on graph representation learning and its applications in algorithmic reasoning and computational biology. In particular, he is the first author of Graph Attention Networks—a popular convolutional layer for graphs—and Deep Graph Infomax—a popular self-supervised learning pipeline for graphs (featured in ZDNet). Petar's research has been used in substantially improving the travel-time predictions in Google Maps (featured in the CNBC, Endgadget, VentureBeat, CNET, the Verge and ZDNet), and guiding the intuition of mathematicians towards new top-tier theorems and conjectures (featured in Nature, New Scientist, The Independent, Sky News, The Sunday Times and The Conversation).
+      
+    - image_path: /assets/images/glb2022/minjie.jpg
+      alt: "Minjie Wang"
       excerpt: >
-        **Jie Tang**<br>
-        Tsinghua University
+        **Minjie Wang**<br>
+        Amazon
+      bio: >
+        Dr. Minjie Wang is currently a senior applied scientist in Amazon AI Shanghai Lab. He obtained his Ph.D. degree from New York University. His research focus is the interdisciplinary area of machine learning and system including building deep learning systems with high usability and performance, applying machine learning in system optimization. He is also an open-source enthusiast; founder and major contributor of well known open source projects such as MXNet, MinPy and Deep Graph Library (DGL).
 
-keynote: # Not ready yet
-    - image_path: https://www.cs.ox.ac.uk/files/13446//michael%20-%20passport.jpg
+    - image_path: /assets/images/glb2022/rose.jpg
+      alt: "Rose Yu"
+      excerpt: >
+        **Rose Yu**<br>
+        University of California, San Diego
+    
+keynote: 
+    - image_path: /assets/images/glb2022/michael.jpg
       alt: "Michael Bronstein"
       title: "Michael Bronstein"
       excerpt: |
@@ -73,7 +87,7 @@ keynote: # Not ready yet
       
       spaces: true
     
-    - image_path: https://www.in.tum.de/fileadmin/_processed_/c/6/csm_guennemann3_904c51d801.jpg
+    - image_path: assets/images/glb2022/stephan.jpg
       alt: "Stephan Günnemann"
       title: "Stephan Günnemann"
       excerpt: |
@@ -110,7 +124,7 @@ keynote: # Not ready yet
       
       spaces: true
 
-    - image_path: http://eliassi.org/tina2016highres.png
+    - image_path: /assets/images/glb2022/tina.png
       alt: "Tina Eliassi-Rad"
       title: "Tina Eliassi-Rad"
       excerpt: |
@@ -143,7 +157,7 @@ if (!sessionStorage.getItem('timezone')) {
   sessionStorage.setItem('timezone', tz.name());
 }
 var currTz = sessionStorage.getItem('timezone');
-var startTime = moment("2021-04-16T13:00:00Z");
+var startTime = moment("2022-04-26T08:45:00Z");
 var tzTime = startTime.tz(currTz)
 </script>
 
@@ -164,22 +178,24 @@ we call for contributions that introduce novel ML tasks or novel graph-structure
 
 Our previous call for papers can be found [here](/glb2022/call-for-papers). 
 
-<!-- # Schedule
+# Schedule
 
-All the time listed below are in Ljubljana time (Central European Summer Time, UTC+2). The workshop will start at Apr 16, 2021 3:00pm CEST<span id="viewerTime"></span>.
+All the time listed below are in the time of Lyon, France (Central European Summer Time, UTC+2) in 24-hour clock. The workshop will start at Apr 26, 2022 10:45 CEST<span id="viewerTime"></span>.
 
 | Time (UTC+2) | Agenda |
 | ----------------- | ------------ |
-| **3:00-3:10pm**    | **Opening remarks** |
-| **3:10-3:30pm**    | **[Invited talk by Leman Akoglu](#Leman+Akoglu) (20 min)**: <br> On Using Classification Datasets to Evaluate Graph Outlier Detection: Peculiar Observations and New Insights |
-| **3:30-4:00pm**    | **Contributed talks (12 min + 3-min Q&A for each):**<br>\- Reproducible Evaluations of Network Representation Learning Models Using EvalNE<br>\- Catastrophic Forgetting in Deep Graph Networks: an Introductory Benchmark for Graph Classification |
-| **4:00-4:05pm**    | **Break (5 min)** |
-| **4:05-4:40pm**    | **Spotlight talks (11 x 3 min)** |
-| **4:40-5:30pm**    | **Interactive poster session & Break (50 min)** |
-| **5:30-6:25pm**    | **[Panel discussion](#panelists) (55 min):<br>Stephan Günnemann, Yizhou Sun, Jie Tang**|
-| **6:25-6:30pm**    | **Break (5 min)** |
-| **6:30-7:10pm**    | **[Keynote by Jure Leskovec](#Jure+Leskovec) (40 min)**: <br> Open Graph Benchmark Large-Scale Challenge |
-| **7:10-7:20pm**    | **Closing remarks** | -->
+| **10:45-10:50**    | **Opening remarks** |
+| **10:50-11:40**    | **[Keynote by Michael Bronstein](#Michael+Bronstein) (50 min)**: <br> Graph Neural Networks: Trends and Open Problems |
+| **11:40-12:40**    | **Paper Presentation - Session 1 (60 min)** |
+| **12:40-14:00**    | **Lunch Break (80 min)** |
+| **14:00-14:50**    | **[Keynote by Stephan Günnemann](#Stephan+Günnemann) (50 min)**: <br> Graph Neural Networks for Molecular Systems - Methods and Benchmarks |
+| **14:50-15:30**    | **Paper Presentation - Session 2 (40 min)** |
+| **15:30-15:45**    | **Break (15 min)**|
+| **15:45-16:35**    | **[Keynote by Tina Eliassi-Rad](#Tina+Eliassi-Rad) (50 min)**: <br> The Why, How, and When of Representations for Complex Systems |
+| **16:35-17:15**    | **Paper Presentation - Session 3 (40 min)** |
+| **17:15-18:15**    | **Break (Plenary Talk at TheWebConf) (60 min)** |
+| **18:15-19:15**    | **Panel Discussion (60 min)** |
+| **19:15-19:30**    | **Closing Remarks** |
 
 <script>
   document.getElementById("viewerTime").innerHTML = " (" + tzTime.format('MMM DD h:mma z') + ")"
@@ -190,12 +206,12 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
 {% include feature_row id="keynote" type="left" %}
 <!-- {% include feature_row id="invited-talk" type="left" %} -->
 
-<!-- # Panelists
-{% include feature_row id="panelists" %} -->
+# Panelists
+{% include feature_row id="panelists" %}
 
-<!-- # Accepted Papers
+# Accepted Papers
 <ul>
-{% for pubitem in site.data.papers %}
+{% for pubitem in site.data.papers2022 %}
     <li> {{ pubitem.title | markdownify | remove: '<p>' | remove: '</p>' | strip }} <br>
     <div class="small">
     <i> {{ pubitem.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }} </i> 
@@ -211,7 +227,7 @@ All the time listed below are in Ljubljana time (Central European Summer Time, U
     {% if pubitem.new_dataset %} Code & Datasets {% else %} Code {% endif %} </a>{% endif %}
     </li>
 {% endfor %}
-</ul> -->
+</ul>
 
 # Organizers
 {% capture organizers %}
