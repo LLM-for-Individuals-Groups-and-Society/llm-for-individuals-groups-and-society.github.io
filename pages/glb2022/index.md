@@ -29,7 +29,7 @@ organizers: # Not ready yet
       alt: "Danai Koutra"
       excerpt: "**Danai Koutra**"
 panelists:
-    - image_path: /assets/images/glb2022/xin.jpeg
+    - image_path: /assets/images/glb2022/xin.png
       alt: "Xin Luna Dong"
       excerpt: >
         **Xin Luna Dong**<br>
@@ -45,7 +45,7 @@ panelists:
       bio: >
         Petar Veličković is a Staff Research Scientist at DeepMind, Affiliated Lecturer at the University of Cambridge, and an Associate of Clare Hall, Cambridge. He holds a PhD in Computer Science from the University of Cambridge (Trinity College), obtained under the supervision of Pietro Liò. Petar's research concerns geometric deep learning—devising neural network architectures that respect the invariances and symmetries in data (a topic he's co-written a proto-book about). For his contributions to the area, Petar is recognised as an ELLIS Scholar in the Geometric Deep Learning Program. Within this area, Petar focusses on graph representation learning and its applications in algorithmic reasoning and computational biology. In particular, he is the first author of Graph Attention Networks—a popular convolutional layer for graphs—and Deep Graph Infomax—a popular self-supervised learning pipeline for graphs (featured in ZDNet). Petar's research has been used in substantially improving the travel-time predictions in Google Maps (featured in the CNBC, Endgadget, VentureBeat, CNET, the Verge and ZDNet), and guiding the intuition of mathematicians towards new top-tier theorems and conjectures (featured in Nature, New Scientist, The Independent, Sky News, The Sunday Times and The Conversation).
       
-    - image_path: /assets/images/glb2022/minjie.jpg
+    - image_path: /assets/images/glb2022/minjie.png
       alt: "Minjie Wang"
       excerpt: >
         **Minjie Wang**<br>
@@ -53,7 +53,7 @@ panelists:
       bio: >
         Dr. Minjie Wang is currently a senior applied scientist in Amazon AI Shanghai Lab. He obtained his Ph.D. degree from New York University. His research focus is the interdisciplinary area of machine learning and system including building deep learning systems with high usability and performance, applying machine learning in system optimization. He is also an open-source enthusiast; founder and major contributor of well known open source projects such as MXNet, MinPy and Deep Graph Library (DGL).
 
-    - image_path: /assets/images/glb2022/rose.jpg
+    - image_path: /assets/images/glb2022/rose.png
       alt: "Rose Yu"
       excerpt: >
         **Rose Yu**<br>
