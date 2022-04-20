@@ -178,6 +178,10 @@ we call for contributions that introduce novel ML tasks or novel graph-structure
 
 Our previous call for papers can be found [here](/glb2022/call-for-papers). 
 
+# Registration
+Please [register for The Web Conference 2022](https://www2022.thewebconf.org/registration/) to join our workshop. A "Monday & Tuesday only" access (100 €) would be sufficient for joining us, including for the authors who are presenting their papers. We do not require the authors to be registered with the "Author" pass (250 € / 300 €). 
+
+
 # Schedule
 
 All the time listed below are in the time of Lyon, France (Central European Summer Time, UTC+2) in 24-hour clock. The workshop will start at Apr 26, 2022 10:45 CEST<span id="viewerTime"></span>.
