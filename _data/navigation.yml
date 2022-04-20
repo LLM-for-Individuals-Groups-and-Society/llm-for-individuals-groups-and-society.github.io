@@ -2,14 +2,16 @@
 main:
   - title: "CfP"
     url: /glb2022/call-for-papers
-  # - title: "Schedule"
-  #   url: /#schedule
+  - title: "Schedule"
+    url: /glb2022/#registration
   - title: "Keynote Speakers"
     url: /glb2022/#keynote-speakers
-  # - title: "Accepted Papers"
-  #   url: /#accepted-papers
+  - title: "Panelists"
+    url: /glb2022/#panelists
+  - title: "Accepted Papers"
+    url: /glb2022/#accepted-papers
   - title: "Organization"
-    url: /glb2022#organizers
+    url: /glb2022/#organizers
   - title: "GLB 2021"
     url: /glb2021
   # - title: "Sample Collections"
