@@ -50,7 +50,7 @@
   authors: Chirag Agarwal (Adobe); Owen Queen (University of Tennessee, Knoxville); Himabindu Lakkaraju (Harvard); Marinka Zitnik (Harvard University)
   abstract: With Graph Neural Network (GNN) explainability methods increasingly used to understand GNN predictions in critical real-world applications, it is essential to reliably evaluate the correctness of generated explanations. However, assessing the quality of GNN explanations is challenging as existing evaluation strategies depend on specific datasets with no or unreliable ground-truth explanations and GNN models. Here, we introduce G-XAI Bench, an open-source graph explainability library providing a systematic framework in PyTorch and PyTorch Geometric to compare and evaluate the reliability of GNN explanations. G-XAI Bench provides comprehensive programmatic functionality in the form of data processing functions, GNN model implementations, collections of synthetic and real-world graph datasets, GNN explainers, and performance metrics to benchmark any GNN explainability method. We introduced G-XAI Bench to support the development of novel methods with a strong bent towards developing the foundations of which GNN explainers are most suitable for specific applications and why.
   PDF: /assets/papers/glb2022/An_Explainable_AI_Library_for_Benchmarking_Graph_Explainers.pdf
-  code: 
+  # code: 
   new_dataset: False
 
 - title: A Heterogeneous Graph Benchmark for Misinformation on Twitter
@@ -71,8 +71,8 @@
   authors: John Palowitch (Google); Anton Tsitsulin (Google); Brandon Mayer (Google Research); Bryan Perozzi (Google Research)
   abstract: >
     Despite advances in GNNs, only a small number of datasets are used to evaluate new models. This continued reliance on a handful of datasets provides minimal insight into the performance differences between models, and is especially challenging for industrial practitioners who are likely to have datasets which are very different from academic benchmarks. In this work we introduce GraphWorld, a novel methodology for benchmarking GNN models on an arbitrarily-diverse population of synthetic graphs for any GNN task. We present insights from GraphWorld experiments regarding the performance characteristics of eleven GNN models over millions of benchmark datasets. Using GraphWorld, we also are able to study in-detail the relationship between graph properties and task performance metrics, which is nearly impossible with the classic collection of real-world benchmarks.
-  # PDF: /assets/papers/glb2022/Robust_Synthetic_GNN_Benchmarks_with_GraphWorld.pdf
-  code: 
+  PDF: /assets/papers/glb2022/Robust_Synthetic_GNN_Benchmarks_with_GraphWorld.pdf
+  # code: 
   new_dataset: True
 
 - title: "EXPERT: Public Benchmarks for Dynamic Heterogeneous Academic Graphs"
@@ -86,7 +86,7 @@
   authors: Puja Trivedi (University of Michigan); Mark Heimann (Lawrence Livermore); Ekdeep Lubana (University of Michigan); Danai Koutra (U Michigan); Jayaraman Thiagarajan (Lawrence Livermore National Laboratory)
   abstract: >
     Current advances in unsupervised representation learning (URL) have primarily been driven by novel contrastive learning and re-construction based paradigms. Recent work finds the following properties to be critical for visual URL's success: invariance to task-irrelevant attributes, recoverability of labels from augmented samples, and separablility of classes in some latent space. However, these properties are hard to measure or sometimes unsupported when using commonly adopted graph augmentations and benchmarks, making it difficult to evaluate the merits of different URL paradigms or augmentation strategies. For example, on several benchmark datasets, we find that popularly used, generic graph augmentations (GGA) do not induce task-relevant invariance. Moreover, GGA's recoverability cannot be directly evaluated as it is unclear how graph semantics, potentially altered by augmentation, are related to the task. Through this work, we introduce a synthetic data generation process that allows us to control the amount of task-irrelevant (style) and task-relevant (content) information in graph datasets. This construction enables us to define oracle augmentations that induce task-relevant invariances and are recoverable by design. The class separability, i.e., hardness of a task, can also be altered by controlling the degree of irrelevant information. Our proposed process allows us to evaluate how varying levels of style affects the performance of graph URL algorithms and augmentation strategies. Overall, this data generation process is valuable to the community for better understanding limitations of proposed graph URL paradigms that are otherwise not apparent through standard benchmark evaluation.
-  # PDF: /assets/papers/glb2022/A_Content_First_Benchmark_for_Self_Supervised_Graph_Representation_Learning.pdf
+  PDF: /assets/papers/glb2022/A_Content_First_Benchmark_for_Self_Supervised_Graph_Representation_Learning.pdf
   # code: https://github.com/pujacomputes/gcl_recon_22.git
   new_dataset: True
 
@@ -94,7 +94,7 @@
   authors: Yongqi Zhang (4Paradigm Inc.); Zhanke Zhou (Hong Kong Baptist University); Quanming YAO (Tsinghua University); Yong Li (Tsinghua University)
   abstract: >
     While hyper-parameters (HPs) are important for knowledge graph (KG) learning, existing methods fail to search them efficiently. To solve this problem, we first analyze the properties of different HPs and measure the transfer ability from small subgraph to the full graph. Based on the analysis, we propose an efficient two-stage search algorithm KG- Tuner, which efficiently explores HP configurations on small subgraph at the first stage and transfers the top-performed configurations for fine-tuning on the large full graph at the second stage. Experiments show that our method can consistently find better HPs than the baseline algorithms within the same time budget, which achieves 9.1% average relative improvement for four embedding models on the large-scale KGs in open graph benchmark. Our code is released in https://github.com/AutoML-Research/KGTuner.
-  # PDF: /assets/papers/glb2022/KGTuner_Efficient_Hyper_parameter_Search_for_Knowledge_Graph_Learning.pdf
+  PDF: /assets/papers/glb2022/KGTuner_Efficient_Hyper_parameter_Search_for_Knowledge_Graph_Learning.pdf
   code: https://github.com/AutoML-Research/KGTuner
   new_dataset: False
 
