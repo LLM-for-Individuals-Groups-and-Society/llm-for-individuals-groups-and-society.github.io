@@ -257,23 +257,23 @@ All the time listed below are in the time of Lyon, France (Central European Summ
 {{ advisory-board | markdownify }}
 </div>
 
-<!-- # Program Committee
+# Program Committee
 <div class="small row-two-columns">
 <div class="column-half">
 <ul>
-{% for people in site.data.pc-members limit:10 %}
+{% for people in site.data.pc-members2022 limit:12 %}
 <li>{{ people | markdownify | remove: '<p>' | remove: '</p>' | strip }} </li>
 {% endfor %}
 </ul>
 </div>
 <div class="column-half">
 <ul>
-{% for people in site.data.pc-members offset:10 %}
+{% for people in site.data.pc-members2022 offset:12 %}
 <li>{{ people | markdownify | remove: '<p>' | remove: '</p>' | strip }} </li>
 {% endfor %}
 </ul>
 </div>
-</div> -->
+</div>
 
 <script>
     var coll = document.getElementsByClassName("collapsible");
