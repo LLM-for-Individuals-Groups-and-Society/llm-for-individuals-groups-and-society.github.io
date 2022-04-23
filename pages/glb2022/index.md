@@ -205,6 +205,14 @@ All the time listed below are in the time of Lyon, France (Central European Summ
   document.getElementById("viewerTime").innerHTML = " (" + tzTime.format('MMM DD h:mma z') + ")"
 </script>
 
+<iframe id="calendarIframe" src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&mode=AGENDA&showCalendars=0&showTabs=1&src=Y19ndnZmdDk4c2tjZm5kdjduazg1MGRvb2c3c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26&ctz=" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js"></script>
+<script type="text/javascript">
+    var timezone_name = encodeURIComponent(jstz.determine().name());
+    document.getElementById("calendarIframe").src = document.getElementById("calendarIframe").src + timezone_name;
+</script>
+
+
 # Keynote Speakers
 
 {% include feature_row id="keynote" type="left" %}
