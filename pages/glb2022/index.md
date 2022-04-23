@@ -190,13 +190,13 @@ All the time listed below are in the time of Lyon, France (Central European Summ
 | ----------------- | ------------ |
 | **10:45-10:50**    | **Opening remarks** |
 | **10:50-11:40**    | **[Keynote by Michael Bronstein](#Michael+Bronstein) (50 min)**: <br> Graph Neural Networks: Trends and Open Problems |
-| **11:40-12:40**    | **Paper Presentation - Session 1 (60 min)** |
+| **11:40-12:40**    | **Paper Presentation - Session 1 (60 min)** <br> [Paper Assignments](https://docs.google.com/spreadsheets/d/1HL5WjU6r382kzGaFe_u47PVjSQ_UyF8BaO5ybbKKl6Y/edit#gid=0)|
 | **12:40-14:00**    | **Lunch Break (80 min)** |
 | **14:00-14:50**    | **[Keynote by Stephan Günnemann](#Stephan+Günnemann) (50 min)**: <br> Graph Neural Networks for Molecular Systems - Methods and Benchmarks |
-| **14:50-15:30**    | **Paper Presentation - Session 2 (40 min)** |
+| **14:50-15:30**    | **Paper Presentation - Session 2 (40 min)** <br> [Paper Assignments](https://docs.google.com/spreadsheets/d/1HL5WjU6r382kzGaFe_u47PVjSQ_UyF8BaO5ybbKKl6Y/edit#gid=687427304) |
 | **15:30-15:45**    | **Break (15 min)**|
 | **15:45-16:35**    | **[Keynote by Tina Eliassi-Rad](#Tina+Eliassi-Rad) (50 min)**: <br> The Why, How, and When of Representations for Complex Systems |
-| **16:35-17:15**    | **Paper Presentation - Session 3 (40 min)** |
+| **16:35-17:15**    | **Paper Presentation - Session 3 (40 min)** <br> [Paper Assignments](https://docs.google.com/spreadsheets/d/1HL5WjU6r382kzGaFe_u47PVjSQ_UyF8BaO5ybbKKl6Y/edit#gid=1435528451)|
 | **17:15-18:15**    | **Break (Plenary Talk at TheWebConf) (60 min)** |
 | **18:15-19:15**    | **[Panel Discussion](#panelists) (60 min)** |
 | **19:15-19:30**    | **Closing Remarks** |
