@@ -51,12 +51,13 @@ var tzTime = startTime.tz(currTz)
 
 # Overview
 
-GLB 2023 is the third edition of the Workshop of the Graph Learning Benchmarks, encouraged by the success of [GLB 2021](/glb2021). 
+GLB 2023 is the third edition of the Workshop of the Graph Learning Benchmarks, encouraged by the success of [the previous editions](/all-editions). 
 Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks,
-we call for contributions that establish novel ML tasks on novel graph-structured data which have the potential to 
-(i) identifying systematic failure modes of existing GNNs and providing new technical challenges for the development of new models which highlight diverse future directions, 
-(ii) raising the attention of the synergy of graph learning, and
-(iii) crowdsourcing benchmark datasets for various tasks of graph ML.
+we call for contributions that establish novel ML tasks on novel graph-structured data which have the potential to
+(i) increase the diversity of graph learning benchmarks,
+(ii) identify new demands of graph machine learning in general, and 
+(iii) gain a better synergy of how concrete techniques perform on these benchmarks. 
+
 
 GLB 2023 will be a **non-archival** workshop; we are excited to host this edition **in person** in conjunction with [**KDD 2023**](https://kdd.org/kdd2023/).
 
@@ -79,7 +80,7 @@ We encourage paper submissions relevant to (but not limited to) the following to
 - **Benchmarks**: Works benchmarking multiple existing GNNs on non-trivial tasks and datasets. We explicitly encourage works that reveal limitations of existing models or optimize matches between network designs and problems. 
 - **Task Taxonomy**: Discussions towards a more comprehensive and fine-grained taxonomy of graph learning tasks.
 
-The acceptance of the contributed papers will be decided on the meaningfulness of the established graph learning tasks or datasets and their potential of being formalized into new benchmarks, rather than the performance of ML models (old or new) on these tasks. We particularly welcome contributions of **negative results** of popular, state-of-the-art models on a new task or dataset, as these provide novel insights to the community’s understanding of the meta-knowledge of graph ML. 
+The contributed papers will be evaluated based on the meaningfulness of proposed tasks or datasets, their potential to become new benchmarks for graph learning, and their contributions to understanding the pros and cons of state-of-the-art graph learning techniques. 
 
 ## Important Dates
 All deadlines are in **Anywhere on Earth (AoE)** time zone.
@@ -103,6 +104,7 @@ If your submission includes appendices, it should be included in the same file w
 - The submission is single-blinded for the ease of data and code sharing. The reviewers are anonymized but the authors do not need to be anonymized in the submission. 
 - This workshop is *non-archival*. Relevant findings that have been recently published are also welcome. For already published submissions, the paper can be submitted in the original format. These submissions will be very lightly reviewed for their relevance to this workshop.
 - Authors are *strongly encouraged* to include the corresponding datasets and code as supplementary materials in their submission. For large datasets or repositories, the authors can provide an external link through Github, Google drive, Dropbox, OneDrive, or Box. We limit the choice of storage platforms for security considerations. Please email the organizers if none of the listed platforms works for you.
+We also encourage authors to contribute new datasets and tasks to our benchmark curation platform, [Graph Learning Indexer (GLI)](https://github.com/Graph-Learning-Benchmarks/gli). 
 - If the data cannot be made publicly available, an extra section is required to illustrate how the results of the established benchmark may generalize to other graph data.
 
 <!-- # Keynote Speakers -->
