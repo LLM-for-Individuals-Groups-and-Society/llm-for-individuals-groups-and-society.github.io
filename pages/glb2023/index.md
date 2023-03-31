@@ -131,7 +131,7 @@ We also encourage authors to contribute new datasets and tasks to our benchmark 
 
 # Organizers
 {% capture organizers %}
-The list of organizer is also available [here](https://airtable.com/shrwvG9wYqjrbXq0s/tblLXlCDQlpCBK6lR?backgroundColor=purple).
+A list of organizers can also be found [here](https://airtable.com/shrwvG9wYqjrbXq0s/tblLXlCDQlpCBK6lR?backgroundColor=purple).
 {% endcapture %}
 
 <div class="small">
