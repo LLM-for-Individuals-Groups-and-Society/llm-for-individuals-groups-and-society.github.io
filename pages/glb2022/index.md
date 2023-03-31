@@ -10,8 +10,23 @@ layout: splash
 author_profile: false
 header:
     overlay_color: "#000"
-    overlay_filter: "0.5"
+    overlay_filter: "0.9"
     overlay_image: /assets/images/glb-bg.jpg
+navigation:
+  - title: "CfP"
+    url: /glb2022/call-for-papers
+  - title: "Schedule"
+    url: /glb2022#registration
+  - title: "Keynotes"
+    url: /glb2022#keynote-speakers
+  - title: "Panelists"
+    url: /glb2022#panelists
+  - title: "Accepted Papers"
+    url: /glb2022#accepted-papers
+  - title: "Organization"
+    url: /glb2022#organizers
+  - title: "Other Editions"
+    url: /all-editions
 organizers: # Not ready yet
     - image_path: /assets/images/danai.jpg
       alt: "Danai Koutra"
@@ -143,8 +158,17 @@ keynote:
 ---
 
 {% capture notice-text %}
-**Update on Feb 27, 2022: We decided to extend the submission deadline for two weeks to Mar 14.** We are deeply aware of the chaos happening in the world right now. We are absolutely against the war, and our hearts go out to all people affected by the war, especially our Ukrainian and European colleagues. We hope the extension could help accommodate people who need more time to take care of themselves and their loved ones. Hope everyone stays safe in this difficult time. 
+**You are viewing the archived site for GLB 2022.** To learn more on the latest edition of the workshop, [click here](/).
 {% endcapture %}
+<div class="notice--warning">
+  <!-- <h4 class="no_toc">Notice Headline:</h4> -->
+  {{ notice-text | markdownify }}
+</div>
+
+
+<!-- {% capture notice-text %}
+**Update on Feb 27, 2022: We decided to extend the submission deadline for two weeks to Mar 14.** We are deeply aware of the chaos happening in the world right now. We are absolutely against the war, and our hearts go out to all people affected by the war, especially our Ukrainian and European colleagues. We hope the extension could help accommodate people who need more time to take care of themselves and their loved ones. Hope everyone stays safe in this difficult time. 
+{% endcapture %} -->
 
 <!-- <div class="notice--info">
   <!-- <h4 class="no_toc">Notice Headline:</h4> ~~>

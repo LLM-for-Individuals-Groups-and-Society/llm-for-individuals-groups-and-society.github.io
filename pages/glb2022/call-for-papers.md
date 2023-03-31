@@ -15,7 +15,7 @@ header:
 ---
 
 {% capture notice-text %}
-**You are viewing the archived site for GLB 2021.** To learn more on the latest edition of the workshop, [click here](/).
+**You are viewing the archived site for GLB 2022.** To learn more on the latest edition of the workshop, [click here](/).
 {% endcapture %}
 
 <!-- <div class="notice--warning">

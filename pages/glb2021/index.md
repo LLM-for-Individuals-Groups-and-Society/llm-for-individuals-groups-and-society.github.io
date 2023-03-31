@@ -16,8 +16,8 @@ navigation:
     url: /glb2021/#accepted-papers
   - title: "Organization"
     url: /glb2021/#organizers
-  - title: "GLB 2022"
-    url: /
+  - title: "Other Editions"
+    url: /all-editions
 layout: splash
 author_profile: false
 header:

@@ -1,19 +1,19 @@
 # main links
 main:
-  - title: "CfP"
-    url: /glb2022/call-for-papers
-  - title: "Schedule"
-    url: /glb2022#registration
-  - title: "Keynotes"
-    url: /glb2022#keynote-speakers
-  - title: "Panelists"
-    url: /glb2022#panelists
-  - title: "Accepted Papers"
-    url: /glb2022#accepted-papers
-  - title: "Organization"
-    url: /glb2022#organizers
-  - title: "GLB 2021"
-    url: /glb2021
+  - title: "Current Edition"
+    url: /
+  # - title: "Schedule"
+  #   url: /glb2022#registration
+  # - title: "Keynotes"
+  #   url: /glb2022#keynote-speakers
+  # - title: "Panelists"
+  #   url: /glb2022#panelists
+  # - title: "Accepted Papers"
+  #   url: /glb2022#accepted-papers
+  # - title: "Organization"
+  #   url: /glb2022#organizers
+  # - title: "GLB 2021"
+  #   url: /glb2021
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
