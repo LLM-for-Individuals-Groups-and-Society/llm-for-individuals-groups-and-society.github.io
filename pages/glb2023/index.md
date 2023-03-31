@@ -130,16 +130,13 @@ We also encourage authors to contribute new datasets and tasks to our benchmark 
 </ul> -->
 
 # Organizers
-<!-- {% capture organizers %}
-- **[Jiaqi Ma](http://www.jiaqima.com/)** (University of Michigan)
-- **[Jiong Zhu](https://www.jiongzhu.net/)** (University of Michigan)
-- **[Anton Tsitsulin](http://tsitsul.in/)** (Google Research)
-- **[Marinka Zitnik](https://zitniklab.hms.harvard.edu/bio/)** (Harvard University)
+{% capture organizers %}
+The list of organizer is also available [here](https://airtable.com/shrwvG9wYqjrbXq0s/tblLXlCDQlpCBK6lR?backgroundColor=purple).
 {% endcapture %}
 
 <div class="small">
 {{ organizers | markdownify }}
-</div> -->
+</div>
 
 <style>
     #organizer-wrap { width: 100%; height: 750; padding: 0; overflow: hidden; }
