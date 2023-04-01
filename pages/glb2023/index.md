@@ -130,6 +130,8 @@ We also encourage authors to contribute new datasets and tasks to our benchmark 
 </ul> -->
 
 # Organizers
+Please contact us through <a target="_blank" href="https://mailhide.io/e/5RV52Tlm">this email address</a> if you have any questions.
+
 {% capture organizers %}
 A list of organizers can also be found [here](https://airtable.com/shrwvG9wYqjrbXq0s/tblLXlCDQlpCBK6lR?backgroundColor=purple).
 {% endcapture %}
