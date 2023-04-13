@@ -57,7 +57,7 @@ we call for contributions that establish novel ML tasks on novel graph-structure
 (i) increase the diversity of graph learning benchmarks,
 (ii) identify new demands of graph machine learning in general, and 
 (iii) gain a better synergy of how concrete techniques perform on these benchmarks. 
-
+We also welcome contributions on data-centric graph learning, such as novel approaches to collect, annotate, clean, augment, and sythesize graph-structured data.
 
 GLB 2023 will be a **non-archival** workshop; we are excited to host this edition **in person** in conjunction with [**KDD 2023**](https://kdd.org/kdd2023/).
 
@@ -75,6 +75,8 @@ We encourage paper submissions relevant to (but not limited to) the following to
 - **Real-World Datasets**: Novel real-world graph-structured datasets---especially large-scale, application-oriented, and publicly accessible datasets. 
 - **Synthetic Datasets**: Synthetic graph-structured datasets that are well-supported by graph theory, network science, or empirical studies, and can be used to reveal limitations of existing graph learning methods.
 - **Software Packages**: Software packages which enable streamlined benchmarking large-scale online graphs, crawling or crowdsourcing of graph data, and generation of realistic synthetic graphs. 
+- **Data Collection**: Novel approaches to collect and annotate graph-structured data. Crowdsourcing and sampling methods on large networks.
+- **Data Processing**: Novel approaches to clean and impute noisy/missing graph-structured data. Data augmentation approaches for self-supervision. 
 - **Tasks**: New learning tasks and applications on different types of graphs, at different levels (e.g., node, edge, subgraph, graph), with a special focus on real-world science-, health- or industry-oriented problems.
 - **Metrics**: New evaluation procedures and metrics of graph learning associated with the various tasks and datasets. 
 - **Benchmarks**: Works benchmarking multiple existing GNNs on non-trivial tasks and datasets. We explicitly encourage works that reveal limitations of existing models or optimize matches between network designs and problems. 
