@@ -102,6 +102,32 @@ keynote:
         Dr. Minjie Wang is currently a senior applied scientist in Amazon AI Shanghai Lab. He obtained his Ph.D. degree from New York University. His research focus is the interdisciplinary area of machine learning and system including building deep learning systems with high usability and performance, applying machine learning in system optimization. He is also an open-source enthusiast; founder and major contributor of well known open source projects such as MXNet, MinPy and Deep Graph Library (DGL).
 
       spaces: true
+
+panelists:
+    - image_path: /assets/images/glb2023/MGalkin.jpg
+      alt: "Michael Galkin"
+      excerpt: >
+        **Michael Galkin**<br>
+        Intel Labs
+      bio: >
+        Michael Galkin is a Research Scientist at Intel AI Labs working on Graph Machine Learning and Geometric Deep Learning. Previously, Michael was a postdoc at Mila - Quebec AI Institute, working with Will Hamilton, Jian Tang, and Reihaneh Rabbany on various graph learning tasks ranging from reasoning and knowledge graphs to molecular representation learning.
+    
+    - image_path: /assets/images/glb2023/NShah.jpg
+      alt: "Neil Shah"
+      excerpt: >
+        **Neil Shah**<br>
+        Snap Research
+      bio: >
+        Neil Shah received the Ph.D. degree in computer science from the Department of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA, in 2017. He is a Research Scientist with Snap Inc., Seattle, WA, USA, with interests in data mining, machine learning, and computational social science on online platforms, with special focus on graph-based modeling for user behavior and misbehavior. His work has resulted in 35+ conference and journal publications, in top venues such as KDD, ICDM, WWW, SDM, DSAA, PAKDD, TKDD, and more, including several best-paper awards. He has also served as an organizer, chair, and on program committees at a number of these. He has had previous research experiences with Lawrence Livermore National Laboratory, Livermore, CA, USA; Microsoft Research, Redmond, WA; and Twitch.tv, San Francisco, CA, USA.
+      
+    - image_path: /assets/images/glb2023/YYan.jpg
+      alt: "Yujun Yan"
+      excerpt: >
+        **Yujun Yan**<br>
+        Dartmouth College
+      bio: >
+        Yujun's research lies at the intersection of machine learning (ML) and network science. Her work provides theoretical understanding and empirical practices to ML models, with application to complex real-world networks. She is particularly interested in (1) fundamental principles in designing more expressive and generalizable graph-based ML models and (2) useful practices of applying graph-based models to various domains, such as neuroscience, and program understanding.  
+      
 ---
 
 
@@ -182,6 +208,9 @@ We also encourage authors to contribute new datasets and tasks to our benchmark 
 
 # Keynote Speakers
 {% include feature_row id="keynote" type="left" %}
+
+# Panelists
+{% include feature_row id="panelists" %}
 
 <!-- # Accepted Papers
 <ul>
