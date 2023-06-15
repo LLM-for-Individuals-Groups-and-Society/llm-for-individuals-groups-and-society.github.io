@@ -31,6 +31,77 @@ navigation:
     url: /glb2023#organizers
   - title: "Past Editions"
     url: /all-editions
+
+keynote: 
+    - image_path: /assets/images/glb2023/Bresson.jpg
+      alt: "Xavier Bresson"
+      title: "Xavier Bresson"
+      excerpt: |
+        ***National University of Singapore*** <br>
+
+      # abstract: >
+      #   (TBD)
+      
+      bio: >
+        Xavier Bresson (PhD 2005, EPFL, Switzerland) is Associate Professor in Computer Science at NUS, Singapore. He is a leading researcher in the field of Graph Deep Learning, a new framework that combines graph theory and deep learning techniques to tackle complex data domains in natural language processing, computer vision, combinatorial optimization, quantum chemistry, physics, neuroscience, genetics and social networks. In 2016, he received the highly competitive Singaporean NRF Fellowship of $2.5M to develop these deep learning techniques. He was also awarded several research grants in the U.S. and Hong Kong. As a leading researcher in the field, he has published more than 60 peer-reviewed papers in the leading journals and conference proceedings in machine learning, including articles in NeurIPS, ICML, ICLR, CVPR, JMLR. He has organized several international workshops and tutorials on AI and deep learning in collaboration with Facebook, NYU and Imperial such as the 2019 and 2018 UCLA workshops, the 2017 CVPR tutorial and the 2017 NeurIPS tutorial. He has been teaching undergraduate, graduate and industrial courses in AI and deep learning since 2014 at EPFL (Switzerland), NTU (Singapore) and UCLA (U.S.).
+      
+      spaces: true
+    
+    - image_path: assets/images/glb2023/Sun.jpg
+      alt: "Jimeng Sun"
+      title: "Jimeng Sun"
+      excerpt: |
+        ***University of Illinois, Urbana-Champaign*** <br>
+
+      # abstract: >
+      #   (TBD)
+      
+      bio: >
+        Jimeng Sun is the Health Innovation Professor at Computer Science Department and Carle's Illinois College of Medicine at University of Illinois, Urbana-Champaign. Previously, he was with the College of Computing, Georgia Institute of Technology. His research interest include artificial intelligence for healthcare, deep learning for drug discovery, clinical trial optimization, computational phenotyping, clinical predictive modeling, treatment recommendation, and health monitoring.
+      
+      spaces: true
+
+    - image_path: /assets/images/glb2023/YSun.jpg
+      alt: "Yizhou Sun"
+      title: "Yizhou Sun"
+      excerpt: |
+        ***University of California, Los Angeles*** <br>
+
+      # abstract: >
+      #   (TBD)
+      
+      bio: >
+        Yizhou Sun received the PhD degree in computer science from the University of Illinois at Urbana-Champaign in 2012. She is currently an associate professor with the Department of Computer Science, UCLA. She joined UCLA in 2016 after her first position with Northeastern University. She got her early tenure in 2018. She has more than 180 publications in books, journals, and major conferences, and her h-index is 50. Tutorials of her research have been given in many premier conferences. Her research interests include mining graphs/networks, data mining, machine learning, and network science, with a focus on modeling novel problems and proposing scalable algorithms for large-scale, real-world applications. She is a pioneer researcher in mining heterogeneous information network, with a recent focus on deep learning on graphs/networks. She has been an associate editor editor for several major data mining/information system journals, PC chair/vice PC chair for several conferences and workshops, and area chairs/senior PCs for major top conferences in data mining, machine learning, and artificial intelligence. She also was on several award committees, including KDD Best Paper Award, SIGIR Best Paper Award, and KDD Dissertation Award Committee. She was the recipient of the Best Student Paper Award from KDD and BCB, ACM SIGKDD Doctoral Dissertation Award, Yahoo ACE (Academic Career Enhancement) Award, NSF CAREER Award, CS@ILLINOIS Distinguished Educator Award, Amazon Research Awards (twice), and Okawa Foundation Research Award.
+
+      spaces: true
+
+    - image_path: /assets/images/glb2023/AWang.jpg
+      alt: "Atlas Wang"
+      title: "Atlas Wang"
+      excerpt: |
+        ***The University of Texas at Austin*** <br>
+
+      # abstract: >
+      #   (TBD)
+      
+      bio: >
+        Professor Zhangyang “Atlas” Wang is currently the Jack Kilby/Texas Instruments Endowed Assistant Professor in the Chandra Family Department of Electrical and Computer Engineering at The University of Texas at Austin. He received the Ph.D. degree from the University of Illinois at Urbana–Champaign, under the supervision of Prof. Thomas Huang. He was an Assistant Professor at Texas A&M University from 2017 to 2020. His research interests include machine learning, computer vision, optimization, and their interdisciplinary applications. Most recently, he studies automated machine learning (AutoML), learning to optimize (L2O), robust learning, efficient learning, and graph neural networks.
+
+      spaces: true
+
+    - image_path: /assets/images/glb2023/MJie.png
+      alt: "Minjie Wang"
+      title: "Minjie Wang"
+      excerpt: |
+        ***Amazon*** <br>
+
+      # abstract: >
+      #   (TBD)
+      
+      bio: >
+        Dr. Minjie Wang is currently a senior applied scientist in Amazon AI Shanghai Lab. He obtained his Ph.D. degree from New York University. His research focus is the interdisciplinary area of machine learning and system including building deep learning systems with high usability and performance, applying machine learning in system optimization. He is also an open-source enthusiast; founder and major contributor of well known open source projects such as MXNet, MinPy and Deep Graph Library (DGL).
+
+      spaces: true
 ---
 
 
@@ -109,7 +180,8 @@ If your submission includes appendices, it should be included in the same file w
 We also encourage authors to contribute new datasets and tasks to our benchmark curation platform, [Graph Learning Indexer (GLI)](https://github.com/Graph-Learning-Benchmarks/gli). 
 - If the data cannot be made publicly available, an extra section is required to illustrate how the results of the established benchmark may generalize to other graph data.
 
-<!-- # Keynote Speakers -->
+# Keynote Speakers
+{% include feature_row id="keynote" type="left" %}
 
 <!-- # Accepted Papers
 <ul>
@@ -196,3 +268,20 @@ A list of organizers can also be found [here](https://airtable.com/shrwvG9wYqjrb
     });
     }
 </script> -->
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+    }
+</script>
