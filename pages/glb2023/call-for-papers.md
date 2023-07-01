@@ -41,7 +41,7 @@ The contributed papers will be evaluated based on the meaningfulness of proposed
 ## Important Dates
 All deadlines are in **Anywhere on Earth (AoE)** time zone.
 - **Submission deadline**: ~~May 30, 2023~~ Extended to Jun. 8, 2023
-- **Acceptance notification**: ~~Jun. 13, 2023~~ Jun. 23, 2023
+- **Acceptance notification**: ~~Jun. 13, 2023~~ ~~Jun. 23, 2023~~ Jun. 27, 2023
 - **Camera-ready version due**: ~~Jun. 27, 2023~~ Jul. 5, 2023
 - **Workshop**: Aug. 6, 2023
 
