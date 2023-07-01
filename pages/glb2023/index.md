@@ -14,17 +14,17 @@ header:
     overlay_image: /assets/images/glb-bg.jpg
 navigation:
   - title: "CfP"
-    url: /glb2023#call-for-papers
-  - title: "Important Dates"
-    url: /glb2023#important-dates
-  - title: "Submission"
-    url: /glb2023#submission
+    url: /glb2023/call-for-papers
+  # - title: "Important Dates"
+  #   url: /glb2023#important-dates
+  # - title: "Submission"
+  #   url: /glb2023#submission
   # - title: "Schedule"
   #   url: /glb2022#registration
-  # - title: "Keynotes"
-  #   url: /glb2022#keynote-speakers
-  # - title: "Panelists"
-  #   url: /glb2022#panelists
+  - title: "Keynotes"
+    url: /glb2023#keynote-speakers
+  - title: "Panelists"
+    url: /glb2023#panelists
   # - title: "Accepted Papers"
   #   url: /glb2022#accepted-papers
   - title: "Organization"
