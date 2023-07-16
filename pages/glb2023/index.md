@@ -167,6 +167,14 @@ Our previous call for papers can be found [here](/glb2023/call-for-papers).
 
 # Schedule
 
+{% capture schedule %}
+Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&single=true) to view the schedule in Google Sheets.
+{% endcapture %}
+
+<div class="small">
+{{ schedule | markdownify }}
+</div>
+
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe>
 
 # Keynote Speakers
