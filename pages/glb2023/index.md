@@ -19,8 +19,8 @@ navigation:
   #   url: /glb2023#important-dates
   # - title: "Submission"
   #   url: /glb2023#submission
-  # - title: "Schedule"
-  #   url: /glb2022#registration
+  - title: "Schedule"
+    url: /glb2023#schedule
   - title: "Keynotes"
     url: /glb2023#keynote-speakers
   - title: "Panelists"
@@ -164,6 +164,10 @@ we call for contributions that introduce novel ML tasks or novel graph-structure
 (ii) support benchmark evaluations for various models. -->
 
 Our previous call for papers can be found [here](/glb2023/call-for-papers).
+
+# Schedule
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe>
 
 # Keynote Speakers
 {% include feature_row id="keynote" type="left" %}
