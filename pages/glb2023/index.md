@@ -33,34 +33,6 @@ navigation:
     url: /all-editions
 
 keynote: 
-    - image_path: /assets/images/glb2023/Bresson.jpg
-      alt: "Xavier Bresson"
-      title: "Xavier Bresson"
-      excerpt: |
-        ***National University of Singapore*** <br>
-
-      # abstract: >
-      #   (TBD)
-      
-      bio: >
-        Xavier Bresson (PhD 2005, EPFL, Switzerland) is Associate Professor in Computer Science at NUS, Singapore. He is a leading researcher in the field of Graph Deep Learning, a new framework that combines graph theory and deep learning techniques to tackle complex data domains in natural language processing, computer vision, combinatorial optimization, quantum chemistry, physics, neuroscience, genetics and social networks. In 2016, he received the highly competitive Singaporean NRF Fellowship of $2.5M to develop these deep learning techniques. He was also awarded several research grants in the U.S. and Hong Kong. As a leading researcher in the field, he has published more than 60 peer-reviewed papers in the leading journals and conference proceedings in machine learning, including articles in NeurIPS, ICML, ICLR, CVPR, JMLR. He has organized several international workshops and tutorials on AI and deep learning in collaboration with Facebook, NYU and Imperial such as the 2019 and 2018 UCLA workshops, the 2017 CVPR tutorial and the 2017 NeurIPS tutorial. He has been teaching undergraduate, graduate and industrial courses in AI and deep learning since 2014 at EPFL (Switzerland), NTU (Singapore) and UCLA (U.S.).
-      
-      spaces: true
-    
-    - image_path: assets/images/glb2023/Sun.jpg
-      alt: "Jimeng Sun"
-      title: "Jimeng Sun"
-      excerpt: |
-        ***University of Illinois, Urbana-Champaign*** <br>
-
-      # abstract: >
-      #   (TBD)
-      
-      bio: >
-        Jimeng Sun is the Health Innovation Professor at Computer Science Department and Carle's Illinois College of Medicine at University of Illinois, Urbana-Champaign. Previously, he was with the College of Computing, Georgia Institute of Technology. His research interest include artificial intelligence for healthcare, deep learning for drug discovery, clinical trial optimization, computational phenotyping, clinical predictive modeling, treatment recommendation, and health monitoring.
-      
-      spaces: true
-
     - image_path: /assets/images/glb2023/YSun.jpg
       alt: "Yizhou Sun"
       title: "Yizhou Sun"
@@ -73,6 +45,35 @@ keynote:
       bio: >
         Yizhou Sun received the PhD degree in computer science from the University of Illinois at Urbana-Champaign in 2012. She is currently an associate professor with the Department of Computer Science, UCLA. She joined UCLA in 2016 after her first position with Northeastern University. She got her early tenure in 2018. She has more than 180 publications in books, journals, and major conferences, and her h-index is 50. Tutorials of her research have been given in many premier conferences. Her research interests include mining graphs/networks, data mining, machine learning, and network science, with a focus on modeling novel problems and proposing scalable algorithms for large-scale, real-world applications. She is a pioneer researcher in mining heterogeneous information network, with a recent focus on deep learning on graphs/networks. She has been an associate editor editor for several major data mining/information system journals, PC chair/vice PC chair for several conferences and workshops, and area chairs/senior PCs for major top conferences in data mining, machine learning, and artificial intelligence. She also was on several award committees, including KDD Best Paper Award, SIGIR Best Paper Award, and KDD Dissertation Award Committee. She was the recipient of the Best Student Paper Award from KDD and BCB, ACM SIGKDD Doctoral Dissertation Award, Yahoo ACE (Academic Career Enhancement) Award, NSF CAREER Award, CS@ILLINOIS Distinguished Educator Award, Amazon Research Awards (twice), and Okawa Foundation Research Award.
 
+      spaces: true
+
+    - image_path: /assets/images/glb2023/DZheng.jpeg
+      alt: "Da Zheng"
+      title: "Da Zheng"
+      excerpt: |
+        ***Amazon*** <br>
+        Graph machine learning for industry applications with DGL and GraphStorm
+
+      abstract: >
+        Graph machine learning (GML) is a powerful tool to model data with relations. However, there are multiple challenges when we apply GML to industry use cases. This includes 1) how to scale to graphs with billions of nodes efficiently and in a cost-effective way, 2) how to process and model complex graphs, such as heterogeneous graphs with rich text features, 3) how to make GML techniques accessible to everyone, even non-GML experts. We develop DGL/DistDGL to scale GML training efficiently. On top of DGL/DistDGL, we develop GraphStorm, an enterprise GML framework, to make large-scale GML training easy. GraphStorm provides a collection of GML model implementations and training methods to handle different types of graph data commonly encountered in the industry use cases. GraphStorm provides no-code/low-code interface so that even non-GML experts can use it easily.
+      
+      bio: >
+        Da Zheng is a senior applied scientist at AWS AI. At AWS AI, he is building frameworks and algorithms to bring graph ML technologies into production. This includes DGL for graph neural networks (GNN), DGL-KE for knowledge graph embeddings, DistDGL for scaling GNN training to billion-scale graphs, and TGL for temporal graph neural networks. His research interest covers a wide range of areas, including high-performance computing, large-scale data analysis systems, data mining, and machine learning. Da obtained a PhD from the department of computer science at the Johns Hopkins University. During his PhD, he worked on FlashGraph and FlashR, frameworks for large-scale graph analysis and data analysis on solid-state drives (SSDs).
+
+      spaces: true
+
+    - image_path: /assets/images/glb2023/Bresson.jpg
+      alt: "Xavier Bresson"
+      title: "Xavier Bresson"
+      excerpt: |
+        ***National University of Singapore*** <br>
+        A Generalization of Visual Transformers and MLP-Mixer to Graphs
+      abstract: >
+        Graph Neural Networks (GNNs) have shown great potential in the field of graph representation learning. Standard GNNs define a local message-passing mechanism which propagates information over the whole graph domain by stacking multiple layers. This paradigm suffers from two major limitations, over-squashing and poor long-range dependencies, that can be solved using global attention but significantly increases the computational cost to quadratic complexity. In this work, we propose an alternative approach to overcome these structural limitations by leveraging the ViT/MLP-Mixer architectures introduced in computer vision. We introduce a new class of GNNs, called Graph MLP-Mixer, that holds three key properties. First, they capture long-range dependency as demonstrated on the long-range LRGB datasets and mitigate the over-squashing issue on the TreeNeighbour dataset. Second, they offer memory and speed efficiency, surpassing related techniques. Third, they show high expressivity in terms of graph isomorphism as they can distinguish at least 3-WL isomorphic graphs. As a result, this novel architecture provides significantly better results over standard message-passing GNNs for molecular datasets.
+      
+      bio: >
+        Xavier Bresson (PhD 2005, EPFL, Switzerland) is Associate Professor in Computer Science at NUS, Singapore. He is a leading researcher in the field of Graph Deep Learning, a new framework that combines graph theory and deep learning techniques to tackle complex data domains in natural language processing, computer vision, combinatorial optimization, quantum chemistry, physics, neuroscience, genetics and social networks. In 2016, he received the highly competitive Singaporean NRF Fellowship of $2.5M to develop these deep learning techniques. He was also awarded several research grants in the U.S. and Hong Kong. As a leading researcher in the field, he has published more than 60 peer-reviewed papers in the leading journals and conference proceedings in machine learning, including articles in NeurIPS, ICML, ICLR, CVPR, JMLR. He has organized several international workshops and tutorials on AI and deep learning in collaboration with Facebook, NYU and Imperial such as the 2019 and 2018 UCLA workshops, the 2017 CVPR tutorial and the 2017 NeurIPS tutorial. He has been teaching undergraduate, graduate and industrial courses in AI and deep learning since 2014 at EPFL (Switzerland), NTU (Singapore) and UCLA (U.S.).
+      
       spaces: true
 
     - image_path: /assets/images/glb2023/AWang.jpg
@@ -89,19 +90,20 @@ keynote:
 
       spaces: true
 
-    - image_path: /assets/images/glb2023/MJie.png
-      alt: "Minjie Wang"
-      title: "Minjie Wang"
+    - image_path: assets/images/glb2023/Sun.jpg
+      alt: "Jimeng Sun"
+      title: "Jimeng Sun"
       excerpt: |
-        ***Amazon*** <br>
+        ***University of Illinois, Urbana-Champaign*** <br>
 
       # abstract: >
       #   (TBD)
       
       bio: >
-        Dr. Minjie Wang is currently a senior applied scientist in Amazon AI Shanghai Lab. He obtained his Ph.D. degree from New York University. His research focus is the interdisciplinary area of machine learning and system including building deep learning systems with high usability and performance, applying machine learning in system optimization. He is also an open-source enthusiast; founder and major contributor of well known open source projects such as MXNet, MinPy and Deep Graph Library (DGL).
-
+        Jimeng Sun is the Health Innovation Professor at Computer Science Department and Carle's Illinois College of Medicine at University of Illinois, Urbana-Champaign. Previously, he was with the College of Computing, Georgia Institute of Technology. His research interest include artificial intelligence for healthcare, deep learning for drug discovery, clinical trial optimization, computational phenotyping, clinical predictive modeling, treatment recommendation, and health monitoring.
+      
       spaces: true
+
 
 panelists:
     - image_path: /assets/images/glb2023/MGalkin.jpg
