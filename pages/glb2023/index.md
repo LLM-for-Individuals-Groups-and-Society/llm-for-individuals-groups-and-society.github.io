@@ -183,7 +183,7 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 # Panelists
 {% include feature_row id="panelists" %}
 
-<!-- # Accepted Papers
+# Accepted Papers
 <ul>
 {% for pubitem in site.data.papers2023 %}
     <li> {{ pubitem.title | markdownify | remove: '<p>' | remove: '</p>' | strip }} <br>
@@ -201,7 +201,7 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
     {% if pubitem.new_dataset %} Code & Datasets {% else %} Code {% endif %} </a>{% endif %}
     </li>
 {% endfor %}
-</ul> -->
+</ul>
 
 # Organizers
 Please contact us through <a target="_blank" href="https://mailhide.io/e/5RV52Tlm">this email address</a> if you have any questions.
@@ -234,40 +234,23 @@ A list of organizers can also be found [here](https://airtable.com/shrwvG9wYqjrb
 <!-- <iframe class="airtable-embed" src="https://airtable.com/embed/shrwvG9wYqjrbXq0s?backgroundColor=purple" frameborder="0" onmousewheel="" width="106%" height="750" style="background: transparent; border: 1px solid #ccc;"></iframe> -->
 
 
-<!-- # Program Committee
+# Program Committee
 <div class="small row-two-columns">
 <div class="column-half">
 <ul>
-{% for people in site.data.pc-members2022 limit:12 %}
+{% for people in site.data.pc-members2023 limit:11 %}
 <li>{{ people | markdownify | remove: '<p>' | remove: '</p>' | strip }} </li>
 {% endfor %}
 </ul>
 </div>
 <div class="column-half">
 <ul>
-{% for people in site.data.pc-members2022 offset:12 %}
+{% for people in site.data.pc-members2023 offset:11 %}
 <li>{{ people | markdownify | remove: '<p>' | remove: '</p>' | strip }} </li>
 {% endfor %}
 </ul>
 </div>
 </div>
-
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-        content.style.display = "none";
-        } else {
-        content.style.display = "block";
-        }
-    });
-    }
-</script> -->
 
 <script>
     var coll = document.getElementsByClassName("collapsible");
