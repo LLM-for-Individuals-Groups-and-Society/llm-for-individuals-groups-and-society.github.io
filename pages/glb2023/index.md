@@ -120,7 +120,7 @@ panelists:
         **Neil Shah**<br>
         Snap Research
       bio: >
-        Neil Shah received the Ph.D. degree in computer science from the Department of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA, in 2017. He is a Research Scientist with Snap Inc., Seattle, WA, USA, with interests in data mining, machine learning, and computational social science on online platforms, with special focus on graph-based modeling for user behavior and misbehavior. His work has resulted in 35+ conference and journal publications, in top venues such as KDD, ICDM, WWW, SDM, DSAA, PAKDD, TKDD, and more, including several best-paper awards. He has also served as an organizer, chair, and on program committees at a number of these. He has had previous research experiences with Lawrence Livermore National Laboratory, Livermore, CA, USA; Microsoft Research, Redmond, WA; and Twitch.tv, San Francisco, CA, USA.
+        Neil Shah is a Lead Research Scientist and Manager at Snap Research, working on machine learning algorithms and applications on large-scale graph data. His work has resulted in 55+ conference and journal publications, in top venues such as ICLR, NeurIPS, KDD, WSDM, WWW, AAAI and more, including several best-paper awards. He has also served as an organizer, chair and senior program committee member at a number of these. He has had previous research experiences at Lawrence Livermore National Laboratory, Microsoft Research, and Twitch. He earned a PhD in Computer Science in 2017 from Carnegie Mellon University’s Computer Science Department, funded partially by the NSF Graduate Research Fellowship.
       
     - image_path: /assets/images/glb2023/YYan.jpg
       alt: "Yujun Yan"
