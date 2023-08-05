@@ -38,7 +38,7 @@ keynote:
       title: "Yizhou Sun"
       excerpt: |
         ***University of California, Los Angeles*** <br>
-        A Graph Benchmark Dataset for Hardware Design Automation
+        **A Graph Benchmark Dataset for Hardware Design Automation**
 
       abstract: >
         In recent decades, the demand for specialized computing systems tailored to specific applications has significantly increased. This has led to the emergence of domain-specific accelerators (DSAs) implemented in either application-specific integrated circuits (ASICs) or field-programmable gate arrays (FPGAs).  High-level synthesis (HLS) aims to raise the abstraction layer in hardware design, enabling the design of domain-specific accelerators (DSAs) using C/C++ instead of hardware description languages (HDLs). Compiler directives in the form of pragmas play a crucial role in modifying the microarchitecture within the HLS framework. However, the space of possible microarchitectures grows exponentially with the number of pragmas. Moreover, the evaluation of each candidate design using the HLS tool consumes significant time, ranging from minutes to hours, leading to a time-consuming optimization process. To accelerate this process, machine learning models have been used to predict design quality in milliseconds. However, existing open-source datasets for training such models are limited in terms of design complexity and available optimizations. In this talk, we present the first benchmark dataset that addresses these limitations. In this dataset, each program is represented in the form of both control data flow graph (CDFG) and source code. For each program, we provide labels for 5 performance related metrics (e.g., latency) for each design point (pragma configuration). The benchmark consists of 42 unique programs/kernels, resulting in over 42,000 labeled designs. It contains more complex programs with a wider range of optimization pragmas, making it a comprehensive dataset for training and evaluating design quality prediction models. We conduct an extensive comparison of state-of-the-art baselines to assess their effectiveness in predicting design quality. As an ongoing project, we anticipate expanding the benchmark in terms of both quantity and variety of programs to further support the development of this field.
@@ -53,7 +53,7 @@ keynote:
       title: "Da Zheng"
       excerpt: |
         ***Amazon*** <br>
-        Graph machine learning for industry applications with DGL and GraphStorm
+        **Graph machine learning for industry applications with DGL and GraphStorm**
 
       abstract: >
         Graph machine learning (GML) is a powerful tool to model data with relations. However, there are multiple challenges when we apply GML to industry use cases. This includes 1) how to scale to graphs with billions of nodes efficiently and in a cost-effective way, 2) how to process and model complex graphs, such as heterogeneous graphs with rich text features, 3) how to make GML techniques accessible to everyone, even non-GML experts. We develop DGL/DistDGL to scale GML training efficiently. On top of DGL/DistDGL, we develop GraphStorm, an enterprise GML framework, to make large-scale GML training easy. GraphStorm provides a collection of GML model implementations and training methods to handle different types of graph data commonly encountered in the industry use cases. GraphStorm provides no-code/low-code interface so that even non-GML experts can use it easily.
@@ -68,7 +68,8 @@ keynote:
       title: "Xavier Bresson"
       excerpt: |
         ***National University of Singapore*** <br>
-        A Generalization of Visual Transformers and MLP-Mixer to Graphs
+        **A Generalization of Visual Transformers and MLP-Mixer to Graphs**
+      
       abstract: >
         Graph Neural Networks (GNNs) have shown great potential in the field of graph representation learning. Standard GNNs define a local message-passing mechanism which propagates information over the whole graph domain by stacking multiple layers. This paradigm suffers from two major limitations, over-squashing and poor long-range dependencies, that can be solved using global attention but significantly increases the computational cost to quadratic complexity. In this work, we propose an alternative approach to overcome these structural limitations by leveraging the ViT/MLP-Mixer architectures introduced in computer vision. We introduce a new class of GNNs, called Graph MLP-Mixer, that holds three key properties. First, they capture long-range dependency as demonstrated on the long-range LRGB datasets and mitigate the over-squashing issue on the TreeNeighbour dataset. Second, they offer memory and speed efficiency, surpassing related techniques. Third, they show high expressivity in terms of graph isomorphism as they can distinguish at least 3-WL isomorphic graphs. As a result, this novel architecture provides significantly better results over standard message-passing GNNs for molecular datasets.
       
@@ -82,7 +83,7 @@ keynote:
       title: "Atlas Wang"
       excerpt: |
         ***The University of Texas at Austin*** <br>
-        Unveiling the simplicity in Training Graph Neural Networks
+        **Unveiling the simplicity in Training Graph Neural Networks**
 
       abstract: >
         Scaling up the training of Graph Neural Networks (GNNs) has been perceived as more challenging than scaling vision or NLP models, primarily due to well-known obstacles such as over-smoothing, over-squashing,  and complexities in distributed training. Yet in this talk, we will unveil some surprising simplicity that we have discovered through our experiments with GNNs. Firstly, we will present a fresh perspective on gradient flow to comprehend the underwhelming performance of deep GCNs. By introducing GNN-customized initialization and implementing gradient-guided dynamic rewiring, we demonstrate how these techniques effectively facilitate healthy gradient flow and substantially enhance GNN trainability. Secondly, we embark on an unprecedented exploration by identifying matching untrained GNNs. Leveraging sparsity as a core tool, we can discover untrained sparse subnetworks during initialization that achieve performance on par with fully trained dense GNNs. Lastly, we explore a data-centric approach to tackle ginormous graph data by creating independently and parallelly trained multiple comparatively weaker models, without any intermediate communication. These models are subsequently merged using greedy interpolation, resulting in state-of-the-art performance.
