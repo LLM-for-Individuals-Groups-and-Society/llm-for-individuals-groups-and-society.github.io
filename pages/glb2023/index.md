@@ -1,7 +1,7 @@
 ---
 permalink: /glb2023
 title: "Workshop on Graph Learning Benchmarks <br>(GLB 2023)"
-excerpt: Aug. 6, 2023, 8am - 5pm <br> Grand Ballroom B, Long Beach Convention Center <br> Held in conjunction with <a href="https://kdd.org/kdd2023/">KDD 2023</a>
+excerpt: Sunday Aug. 6, 2023, 8am - 5pm <br> Grand Ballroom B, Long Beach Convention Center <br> Held in conjunction with <a href="https://kdd.org/kdd2023/">KDD 2023</a>
 browser-title: "GLB 2023"
 masthead-title: "GLB 2023"
 masthead-subtitle: "@KDD 2023"
@@ -173,16 +173,33 @@ Our previous call for papers can be found [here](/glb2023/call-for-papers).
 
 # Schedule
 
-We have a full-day program from 8am to 5pm at *Grand Ballroom B*. 
-{% capture schedule %}
-Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&single=true) to view the schedule in Google Sheets.
-{% endcapture %}
+We have a full-day program from <u>8am to 5pm on Sunday (Aug. 6)</u> at ***Grand Ballroom B***. 
 
+| Time (PDT) | Agenda |
+| ----------------- | ------------ |
+| **8:00-8:10am**    | **Opening remarks** |
+| **8:10-8:50am**    | **[Keynote by Yizhou Sun](#Yizhou+Sun) (40 min)**: <br> Graph Neural Networks: Trends and Open Problems |
+| **8:50-9:30am**    | **[Keynote by Da Zheng](#Da+Zheng) (40 min)**: <br> Graph machine learning for industry applications with DGL and GraphStorm |
+| **9:30-10:00am**    | **Coffe Break** |
+| **10:00-10:40am**    | **[Keynote by Xavier Bresson](#Xavier+Bresson) (40 min)**: <br> A Generalization of Visual Transformers and MLP-Mixer to Graphs |
+| **10:40-11:30am**    | **Contributed Talks - Session 1 (50 min)** [(Presentation Time)](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&single=true) <br> - A critical look at the evaluation of GNNs under heterophily: Are we really making progress? *(Outstanding Paper)*<br>- Examining the Effects of Degree Distribution and Homophily in Graph Learning Models<br>- Impact-Oriented Contextual Scholar Profiling using Self-Citation Graphs<br>- An Out-of-the-Box Application for Reproducible Graph Collaborative Filtering extending the Elliot Framework|
+| **11:30-1:00pm**    | **Lunch Break (90 min)** |
+| **1:00-1:40pm**    | **[Keynote by Atlas Wang](#Atlas+Wang) (40 min)**: <br> Unveiling the simplicity in Training Graph Neural Networks |
+| **1:40-2:20pm**    | **[Keynote by Jimeng Sun](#Jimeng+Sun) (40 min)**: <br> Data, Benchmark and Models to Enable AI in Healthcare |
+| **2:20-3:00pm**    | **Contributed Talks - Session 2 (40 min)** [(Presentation Time)](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&single=true) <br> - Graph Generative Model for Benchmarking Graph Neural Networks *(Outstanding Paper)*<br>- TpuGraphs: A Performance Prediction Dataset on Large Tensor Computational Graphs<br>- NeuroGraph: Benchmarks for Graph Machine Learning in Brain Connectomics |
+| **3:00-3:30pm**    | **Coffee Break (30 min)**|
+| **3:30-4:30pm**    | **[Panel Discussion](#panelists) (60 min)**<br>**Moderator**:Jingrui He<br>**Panelists**: Michael Galkin, Neil Shah, Yujun Yan|
+| **4:30-4:50pm**    | **Contributed Talks - Session 3 (20 min)** [(Presentation Time)](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&single=true) <br> - A Metadata-Driven Approach to Understand Graph Neural Networks<br>- Web-Scale Academic Name Disambiguation: the WhoIsWho Benchmark, Leaderboard, and Toolkit |
+| **4:50-5:00pm**    | **Closing Remarks** |
+
+{% capture schedule %}
+Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&single=true) to view the detailed schedule in Google Sheets.
+{% endcapture %}
 <div class="small">
 {{ schedule | markdownify }}
 </div>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe>
+<!-- <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe> -->
 
 # Keynote Speakers
 {% include feature_row id="keynote" type="left" %}
