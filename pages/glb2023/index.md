@@ -180,7 +180,7 @@ We have a full-day program from <u>8am to 5pm on Sunday (Aug. 6)</u> at ***Grand
 | **8:00-8:10am**    | **Opening remarks** |
 | **8:10-8:50am**    | **[Keynote by Yizhou Sun](#Yizhou+Sun) (40 min)**: <br> Graph Neural Networks: Trends and Open Problems |
 | **8:50-9:30am**    | **[Keynote by Da Zheng](#Da+Zheng) (40 min)**: <br> Graph machine learning for industry applications with DGL and GraphStorm |
-| **9:30-10:00am**    | **Coffe Break** |
+| **9:30-10:00am**    | **Coffee Break** |
 | **10:00-10:40am**    | **[Keynote by Xavier Bresson](#Xavier+Bresson) (40 min)**: <br> A Generalization of Visual Transformers and MLP-Mixer to Graphs |
 | **10:40-11:30am**    | **Contributed Talks - Session 1 (50 min)** [(Presentation Time)](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&single=true) <br> - A critical look at the evaluation of GNNs under heterophily: Are we really making progress? *(Outstanding Paper)*<br>- Examining the Effects of Degree Distribution and Homophily in Graph Learning Models<br>- Impact-Oriented Contextual Scholar Profiling using Self-Citation Graphs<br>- An Out-of-the-Box Application for Reproducible Graph Collaborative Filtering extending the Elliot Framework|
 | **11:30-1:00pm**    | **Lunch Break (90 min)** |
