@@ -1,7 +1,7 @@
 ---
 permalink: /glb2023
 title: "Workshop on Graph Learning Benchmarks <br>(GLB 2023)"
-excerpt: Aug. 6, 2023 8am - 5pm @ Grand B <br> Long Beach Convention Center <br> Held in conjunction with <a href="https://kdd.org/kdd2023/">KDD 2023</a>
+excerpt: Aug. 6, 2023, 8am - 5pm <br> Grand Ballroom B, Long Beach Convention Center <br> Held in conjunction with <a href="https://kdd.org/kdd2023/">KDD 2023</a>
 browser-title: "GLB 2023"
 masthead-title: "GLB 2023"
 masthead-subtitle: "@KDD 2023"
@@ -173,6 +173,7 @@ Our previous call for papers can be found [here](/glb2023/call-for-papers).
 
 # Schedule
 
+We have a full-day program from 8am to 5pm at *Grand Ballroom B*. 
 {% capture schedule %}
 Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&single=true) to view the schedule in Google Sheets.
 {% endcapture %}
