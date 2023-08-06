@@ -1,7 +1,7 @@
 ---
 permalink: /glb2023
 title: "Workshop on Graph Learning Benchmarks <br>(GLB 2023)"
-excerpt: Aug. 6, 2023 - Long Beach, CA, USA <br> Held in conjunction with <a href="https://kdd.org/kdd2023/">KDD 2023</a>
+excerpt: Aug. 6, 2023 8am - 5pm @ Grand B <br> Long Beach Convention Center <br> Held in conjunction with <a href="https://kdd.org/kdd2023/">KDD 2023</a>
 browser-title: "GLB 2023"
 masthead-title: "GLB 2023"
 masthead-subtitle: "@KDD 2023"
@@ -98,9 +98,10 @@ keynote:
       title: "Jimeng Sun"
       excerpt: |
         ***University of Illinois, Urbana-Champaign*** <br>
+        **Data, Benchmark and Models to Enable AI in Healthcare**
 
-      # abstract: >
-      #   (TBD)
+      abstract: >
+        In this presentation, we address the key components for AI integration in healthcare: data, benchmarks, and models. Firstly, we examine a Hierarchical Autoregressive Language Model that generates high-dimensional Electronic Health Records, facilitating the development of healthcare AI models. Then, we assess the Hierarchical Interaction Network (HINT) paper's clinical trial outcome prediction as an open benchmark. Finally, we explore an evidence-based spatiotemporal model using Ising dynamics for COVID-19 hospitalization predictions, leveraging specialized graph regularization. This discussion exemplifies how AI, fueled by both synthetic and real data, is set to transform the biotech and healthcare sectors.
       
       bio: >
         Jimeng Sun is the Health Innovation Professor at Computer Science Department and Carle's Illinois College of Medicine at University of Illinois, Urbana-Champaign. Previously, he was with the College of Computing, Georgia Institute of Technology. His research interest include artificial intelligence for healthcare, deep learning for drug discovery, clinical trial optimization, computational phenotyping, clinical predictive modeling, treatment recommendation, and health monitoring.
