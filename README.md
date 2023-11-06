@@ -1,5 +1,5 @@
 # Link
-https://xingjian-zhang.github.io/wsdm24-llm-workshop/2024
+https://llm-for-individuals-groups-and-society.github.io/
 
 # Installation
 
