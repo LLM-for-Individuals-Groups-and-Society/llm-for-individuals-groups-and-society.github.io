@@ -1,6 +1,26 @@
-# GLB 2021 Website
+# Link
+https://xingjian-zhang.github.io/wsdm24-llm-workshop/2024
 
-This website is based on [Jekyll](https://jekyllrb.com) and [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/). 
+# Installation
 
-Website configurations can be found at `_config.yml`; All data for accepted papers can be found at `_data/papers.yml`. 
+First, fork via GitHub, then clone the repo locally:
 
+```bash
+git clone https://github.com/{github_username}/wsdm24-llm-workshop.git
+```
+
+Install the dependencies:
+
+```bash
+bundle install
+```
+
+Test locally:
+```bash
+bundle exec jekyll serve
+```
+
+# Configuration
+- `pages/2024`: All pages for the 2024 edition of the workshop.
+- `assets`: All assets (images, pdfs, etc.).
+- `_config.yml`: Meta configuration file.
