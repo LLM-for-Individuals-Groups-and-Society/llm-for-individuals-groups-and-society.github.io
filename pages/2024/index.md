@@ -225,11 +225,7 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 </ul> -->
 
 # Organizers
-<!-- Please contact us through <a target="_blank" href="https://mailhide.io/e/5RV52Tlm">this email address</a> if you have any questions.
-
-{% capture organizers %}
-A list of organizers can also be found [here](https://airtable.com/shrwvG9wYqjrbXq0s/tblLXlCDQlpCBK6lR?backgroundColor=purple).
-{% endcapture %}
+Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7uk">this email address</a> if you have any questions.
 
 <div class="small">
 {{ organizers | markdownify }}
@@ -249,8 +245,8 @@ A list of organizers can also be found [here](https://airtable.com/shrwvG9wYqjrb
     }
 </style>
 <div id="organizer-wrap">
-<iframe id="organizer-frame" class="airtable-embed" src="https://airtable.com/embed/shrwvG9wYqjrbXq0s?backgroundColor=purple" frameborder="0" onmousewheel="" height="750" style="background: transparent; border: 1px solid #ccc;"></iframe>
-</div> -->
+<iframe id="organizer-frame" class="airtable-embed" src="https://airtable.com/embed/appIcFI3A3qlZEXLn/shrEdMW17Ryg0T1Ns?backgroundColor=orange&viewControls=on" frameborder="0" onmousewheel="" height="950" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</div>
 
 <!-- <iframe class="airtable-embed" src="https://airtable.com/embed/shrwvG9wYqjrbXq0s?backgroundColor=purple" frameborder="0" onmousewheel="" width="106%" height="750" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
