@@ -1,7 +1,7 @@
 ---
 permalink: /2024
 title: "Workshop on Large Language Models for Individuals, Groups, and Society"
-excerpt: (Time - TBD) <br> (Location - TBD) <br> Held in conjunction with <a href="https://www.wsdm-conference.org/2024/">WSDM 2024</a>
+excerpt: Merida, Yucatan, Mexico, March 8, 2024 <br> Held in conjunction with <a href="https://www.wsdm-conference.org/2024/">WSDM 2024</a>
 browser-title: "LLM for Individuals, Groups, and Society"
 masthead-title: "LLM for Individuals, Groups, and Society"
 masthead-subtitle: "@WSDM 2024"
@@ -13,7 +13,7 @@ header:
     overlay_filter: "0.5"
     overlay_image: /assets/images/glb-bg.jpg
 navigation:
-  - title: "CfP"
+  - title: "Call for Papers"
     url: /2024/call-for-papers
   # - title: "Important Dates"
   #   url: /2024#important-dates

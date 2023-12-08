@@ -13,54 +13,40 @@ header:
     overlay_filter: "0.5"
     overlay_image: /assets/images/glb-bg.jpg
 ---
+# Overview
 
-TODO: Add cfp description.
+The workshop welcomes submissions describing original research findings as well as
+relevant studies that are published recently in high-quality venues.
+- **Previously unpublished manuscripts** should be submitted as a PDF file in no
+longer than 4 pages (plus unlimited pages for references
+and appendices), according to the new ACM format published in ACM guidelines,
+selecting the generic “sigconf” sample (see the guideline of WSDM 2024).
+Appendices should be included in the same file with the main manuscript.
+- **Manuscripts that have been published** can be submitted in its original
+format and will be lightly reviewed.
+- All submissions should be made through [EasyChair](https://easychair.org/conferences/?conf=llmigs2024).
 
-<!-- {% capture notice-text %}
-**You are viewing the archived site for GLB 2022.** To learn more on the latest edition of the workshop, [click here](/).
-{% endcapture %} -->
-
-<!-- <div class="notice--warning">
-  <!-- <h4 class="no_toc">Notice Headline:</h4> ~~>
-  {{ notice-text | markdownify }}
-</div> -->
-
-
-<!-- We encourage paper submissions relevant to (but not limited to) the following topics:
-
-- **Real-World Datasets**: Novel real-world graph-structured datasets---especially large-scale, application-oriented, and publicly accessible datasets.
-- **Synthetic Datasets**: Synthetic graph-structured datasets that are well-supported by graph theory, network science, or empirical studies, and can be used to reveal limitations of existing graph learning methods.
-- **Software Packages**: Software packages which enable streamlined benchmarking large-scale online graphs, crawling or crowdsourcing of graph data, and generation of realistic synthetic graphs.
-- **Data Collection**: Novel approaches to collect and annotate graph-structured data. Crowdsourcing and sampling methods on large networks.
-- **Data Processing**: Novel approaches to clean and impute noisy/missing graph-structured data. Data augmentation approaches for self-supervision.
-- **Tasks**: New learning tasks and applications on different types of graphs, at different levels (e.g., node, edge, subgraph, graph), with a special focus on real-world science-, health- or industry-oriented problems.
-- **Metrics**: New evaluation procedures and metrics of graph learning associated with the various tasks and datasets.
-- **Benchmarks**: Works benchmarking multiple existing GNNs on non-trivial tasks and datasets. We explicitly encourage works that reveal limitations of existing models or optimize matches between network designs and problems.
-- **Task Taxonomy**: Discussions towards a more comprehensive and fine-grained taxonomy of graph learning tasks.
-
-The contributed papers will be evaluated based on the meaningfulness of proposed tasks or datasets, their potential to become new benchmarks for graph learning, and their contributions to understanding the pros and cons of state-of-the-art graph learning techniques.
-
-## Important Dates
+# Important Dates
 All deadlines are in **Anywhere on Earth (AoE)** time zone.
-- **Submission deadline**: ~~May 30, 2023~~ Extended to Jun. 8, 2023
-- **Acceptance notification**: ~~Jun. 13, 2023~~ ~~Jun. 23, 2023~~ Jun. 27, 2023
-- **Camera-ready version due**: ~~Jun. 27, 2023~~ Jul. 5, 2023
-- **Workshop**: Aug. 6, 2023
+- **Submission deadline**: January 15, 2024
+- **Acceptance notification**: February 1, 2024
+- **Camera-ready version due**: February 15, 2024
+- **Workshop**: March 8, 2024
 
-## Submission
-Abstracts and papers can be submitted through CMT: <br>
-[https://cmt3.research.microsoft.com/GLB2023](https://cmt3.research.microsoft.com/GLB2023)
+# List of Topics
+Topics of the workshop will include but not limited to:
+* Novel **models and algorithms** for adapting large language models to personal contexts.
+* New developments in **aligning** large language models with the preferences and objectives of individuals, sub-populations, or the society at large.
+* Theoretical and empirical results of applying **reinforcement learning from the feedback** of individuals and groups of human users to LLMs.
+* **Evaluation of personalization and societal alignment** of LLMs, including datasets, metrics, and benchmarks.
+* **Personalizing and aligning LLMs under resource constraints**. For example, deploying personalized LLMs on mobile devices or aligning the output of frozen LLMs through APIs.
+* **Applications** of personalization and societal-alignment of LLMs, including but not limited to search engines, recommender systems, email/writing assistants, social networking, entertainment, education, healthcare, scientific discovery, and future of work.
+* **Ethics** of personalizing LLMs, including but not limited to privacy, fairness, bias, transparency, diversity, and other potential impacts of LLMs to individuals, groups, and the society.
+* **Equitable applications** of LLM to diverse user groups.
 
-## Format
+# Publication
 
-- For unpublished submissions, please submit a paper no longer than *4 pages* (excluding references and the appendices) using [the ACM “sigconf” LaTeX template](https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty) (see [the instruction by KDD 2023](https://kdd.org/kdd2023/call-for-research-track-papers/)).
-The recommend setting for LaTex file manuscript is
-```latex
-\documentclass[sigconf, review]{acmart}
-```
-If your submission includes appendices, it should be included in the same file with the main manuscript.
-- The submission is single-blinded for the ease of data and code sharing. The reviewers are anonymized but the authors do not need to be anonymized in the submission.
-- This workshop is *non-archival*. Relevant findings that have been recently published are also welcome. For already published submissions, the paper can be submitted in the original format. These submissions will be very lightly reviewed for their relevance to this workshop.
-- Authors are *strongly encouraged* to include the corresponding datasets and code as supplementary materials in their submission. For large datasets or repositories, the authors can provide an external link through Github, Google drive, Dropbox, OneDrive, or Box. We limit the choice of storage platforms for security considerations. Please email the organizers if none of the listed platforms works for you.
-We also encourage authors to contribute new datasets and tasks to our benchmark curation platform, [Graph Learning Indexer (GLI)](https://github.com/Graph-Learning-Benchmarks/gli).
-- If the data cannot be made publicly available, an extra section is required to illustrate how the results of the established benchmark may generalize to other graph data. -->
+This workshop is *non-archival*. Relevant findings that have been published recently
+are welcome to be submitted to the workshop. For already published studies, the
+paper can be submitted in the original format. These submissions will be very lightly
+reviewed for their relevance to this workshop.
