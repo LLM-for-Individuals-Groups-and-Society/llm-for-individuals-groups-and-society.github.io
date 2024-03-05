@@ -23,8 +23,8 @@ navigation:
     url: /2024#schedule
   - title: "Keynotes"
     url: /2024#keynote-speakers
-  - title: "Panelists"
-    url: /2024#panelists
+  - title: "Invited Speakers"
+    url: /2024#invited-speakers
   # - title: "Accepted Papers"
   #   url: /2024#accepted-papers
   - title: "Organization"
@@ -37,8 +37,7 @@ keynote:
       alt: "Mark Najork"
       title: "Mark Najork"
       excerpt: |
-        **Google DeepMind, Mountain View** <br>
-        **TBA**
+        **Google DeepMind, Mountain View**
 
       abstract: >
         TBA
@@ -52,30 +51,28 @@ keynote:
       alt: "Xin Luna Dong"
       title: "Xin Luna Dong"
       excerpt: |
-        **Meta, Seattle** <br>
-        **TBA**
+        **Meta, Seattle**
 
       abstract: >
-        TBA
+        An intelligent assistant shall be an agent that knows you and the world, can receive your requests or predict your needs, and provide you the right services at the right time with your permission. As smart devices such as Amazon Alexa, Google Home, Ray-ban Meta get popular, Intelligent Assistants are gradually playing an important role in people's lives. The Emergence of wearable devices brings more opportunities and calls for the next generation of Intelligent Assistants. In this talk, we discuss the many challenges and opportunities we face to grow intelligent assistants from voice-only to multi-modal, from context-agnostic to context-aware, from listening to the users' requests to predicting the user's needs, and from server-side to on-device. We discuss our solutions toward multi-modality, contextualization, personalization, and retrieval-augmentation. We expect these new challenges to open doors to new research areas and start a new chapter for providing personal assistance services.
 
       bio: >
-        TBA
+        Xin Luna Dong is a Principal Scientist at Meta Reality Labs, leading the ML efforts in building an intelligent personal assistant. She has spent more than a decade building knowledge graphs, such as the Amazon Product Graph and the Google Knowledge Graph. She has co-authored books "Machine Knowledge: Creation and Curation of Comprehensive Knowledge Bases" and “Big Data Integration”. She was named an ACM Fellow and an IEEE Fellow for "significant contributions to knowledge graph construction and data integration", awarded the VLDB Women in Database Research Award and VLDB Early Career Research Contribution Award. She serves in the PVLDB advisory committee, was a member of the VLDB endowment, a PC co-chair for KDD’2022 ADS track, WSDM’2022, VLDB’2021, and Sigmod’2018.
 
       spaces: true
 
 invited:
-    - image_path: assets/images/derek.jpeg
-      alt: "Derek Zhiyuan Cheng"
-      title: "Derek Zhiyuan Cheng"
+    - image_path: assets/images/jianmo.jpeg
+      alt: "Jianmo Ni"
+      title: "Jianmo Ni"
       excerpt: |
-        **Google DeepMind, Mountain View** <br>
-        **TBA**
+        **Google DeepMind, Mountain View**
 
       abstract: >
-        TBA
+        With the recent advances of large language models, there have been growing opportunities to improve recommender systems by using LLM's extraordinary capabilities as language understanding, reasoning and generation. In this talk, we will introduce and discuss recent works on building better personalized recommender systems with LLMs, from the perspective of user reference prediction, content understanding, personalized generation, tool-use, data efficiency and privacy.
 
       bio: >
-        TBA
+        Jianmo Ni is a senior software engineer at Google DeepMind, where he worked on the intersection of natural language understanding and recommender systems. He has developed Sentence T5, Promptagator, Differentiable Search Index and SWIM-IR to improve retrieval systems by bridging embedding models with large language models (LLMs). Prior to Google, he obtained his Ph.D. from University of California San Diego, where his research focused on personalized machine learning.
 
       spaces: true
 
@@ -83,16 +80,16 @@ invited:
       alt: "Julian McAuley"
       title: "Julian McAuley"
       excerpt: |
-        **UC San Diego, San Diego** <br>
-        **TBA**
+        **UC San Diego, San Diego**
 
       abstract: >
-        TBA
+        In this talk we'll explore the current landscape of conversational recommendation in light of new developments on Large Language Models. While LLMs offer a surprisingly effective "off-the-shelf" solution to conversational recommendation, they also have various limitations. We'll discuss limitations from the perspective of datasets, methodology, and evaluation, and discuss possible future directions.
 
       bio: >
-        TBA
+        Julian McAuley is a Professor at UC San Diego, where he works on applications of machine learning to problems involving personalization, and teaches classes on personalized recommendation. He likes bicycling and baroque keyboard.
 
       spaces: true
+
 ---
 
 
@@ -132,26 +129,26 @@ Topics of the workshop will include but not limited to:
 <!-- We have a full-day program from <u>8am to 5pm on Sunday (Aug. 6)</u> at ***Grand Ballroom B***. -->
 
 
-| Time (CST)       | Agenda                                                                 |
-|------------------|------------------------------------------------------------------------|
-| **9:00-9:10 AM** | **Opening remarks**                                                    |
-| **9:10-10:00 AM**| **Keynote by Marc Najork**                                             |
-| **10:00-10:30 AM**| **Break**                                                              |
-| **10:30-11:20 AM**| **Keynote by Luna Dong**                                               |
-| **11:20-11:30 AM**| **Short Break**                                                        |
-| **11:30 AM-12:15 PM**| **Panel discussion**                                                 |
-| **2:00-2:40 PM** | **Invited Talk by Derek Cheng**                                        |
-| **2:40-2:45 PM** | **Short Break**                                                        |
-| **2:45-3:30 PM** | **Paper talk - LaMP: When Large Language Models Meet Personalization** |
-| **3:00-3:15 PM** | **Paper talk - Teach LLMs to Personalize -- An Approach inspired by Writing Education** |
-| **3:15-3:30 PM** | **Paper talk - Editable User Profiles for Controllable Text Recommendations** |
-| **3:30-4:00 PM** | **Break**                                                              |
-| **4:00-4:40 PM** | **Invited Talk by Julian McAuley (virtual talk)**                      |
-| **4:40-4:45 PM** | **Short Break**                                                        |
-| **4:45-5:00 PM** | **Paper talk - Language-Based User Profiles for Recommendation**       |
-| **5:00-5:15 PM** | **Paper talk - Automated Evaluation of Personalized Text Generation using Large Language Models** |
-| **5:15-5:30 PM** | **Paper talk - A Dialogue Generation Adapter for LLM over Domain Knowledge Gap** |
-| **5:30-5:35 PM** | **Closing remarks**                                                    |
+| Time (CST)            | Agenda                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------- |
+| **9:00-9:10 AM**      | **Opening remarks**                                                                               |
+| **9:10-10:00 AM**     | **Keynote by Marc Najork**                                                                        |
+| **10:00-10:30 AM**    | **Break**                                                                                         |
+| **10:30-11:20 AM**    | **Keynote by Luna Dong**                                                                          |
+| **11:20-11:30 AM**    | **Short Break**                                                                                   |
+| **11:30 AM-12:15 PM** | **Panel discussion**                                                                              |
+| **2:00-2:40 PM**      | **Invited Talk by Derek Cheng**                                                                   |
+| **2:40-2:45 PM**      | **Short Break**                                                                                   |
+| **2:45-3:30 PM**      | **Paper talk - LaMP: When Large Language Models Meet Personalization**                            |
+| **3:00-3:15 PM**      | **Paper talk - Teach LLMs to Personalize -- An Approach inspired by Writing Education**           |
+| **3:15-3:30 PM**      | **Paper talk - Editable User Profiles for Controllable Text Recommendations**                     |
+| **3:30-4:00 PM**      | **Break**                                                                                         |
+| **4:00-4:40 PM**      | **Invited Talk by Julian McAuley (virtual talk)**                                                 |
+| **4:40-4:45 PM**      | **Short Break**                                                                                   |
+| **4:45-5:00 PM**      | **Paper talk - Language-Based User Profiles for Recommendation**                                  |
+| **5:00-5:15 PM**      | **Paper talk - Automated Evaluation of Personalized Text Generation using Large Language Models** |
+| **5:15-5:30 PM**      | **Paper talk - A Dialogue Generation Adapter for LLM over Domain Knowledge Gap**                  |
+| **5:30-5:35 PM**      | **Closing remarks**                                                                               |
 
 
 <!--
@@ -168,7 +165,7 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 {% include feature_row id="keynote" type="left" %}
 
 # Invited Speakers
-{% include feature_row id="invited" type="left"%}
+{% include feature_row id="invited" type="left" %}
 
 <!-- # Accepted Papers
 <ul>
@@ -192,10 +189,6 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 
 # Organizers
 Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7uk">this email address</a> if you have any questions.
-
-<div class="small">
-{{ organizers | markdownify }}
-</div>
 
 <style>
     #organizer-wrap { width: 100%; height: 750; padding: 0; overflow: hidden; }
@@ -234,6 +227,7 @@ Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7u
 </ul>
 </div>
 </div>
+-->
 
 <script>
     var coll = document.getElementsByClassName("collapsible");
@@ -250,4 +244,4 @@ Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7u
         }
     });
     }
-</script> -->
+</script>
