@@ -137,7 +137,7 @@ Topics of the workshop will include but not limited to:
 | **10:30-11:20 AM**    | **Keynote by Luna Dong**                                                                          |
 | **11:20-11:30 AM**    | **Short Break**                                                                                   |
 | **11:30 AM-12:15 PM** | **Panel discussion**                                                                              |
-| **2:00-2:40 PM**      | **Invited Talk by Derek Cheng**                                                                   |
+| **2:00-2:40 PM**      | **Invited Talk by Jianmo Ni**                                                                   |
 | **2:40-2:45 PM**      | **Short Break**                                                                                   |
 | **2:45-3:30 PM**      | **Paper talk - LaMP: When Large Language Models Meet Personalization**                            |
 | **3:00-3:15 PM**      | **Paper talk - Teach LLMs to Personalize -- An Approach inspired by Writing Education**           |
