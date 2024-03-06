@@ -25,9 +25,9 @@ navigation:
     url: /2024#keynote-speakers
   - title: "Invited Speakers"
     url: /2024#invited-speakers
-  # - title: "Accepted Papers"
-  #   url: /2024#accepted-papers
-  - title: "Organization"
+  - title: "Accepted Papers"
+    url: /2024#accepted-papers
+  - title: "Organizers"
     url: /2024#organizers
   # - title: "Past Editions"
   #   url: /all-editions
@@ -137,7 +137,7 @@ Topics of the workshop will include but not limited to:
 | **10:30-11:20 AM**    | **Keynote by Luna Dong**                                                                          |
 | **11:20-11:30 AM**    | **Short Break**                                                                                   |
 | **11:30 AM-12:15 PM** | **Panel discussion**                                                                              |
-| **2:00-2:40 PM**      | **Invited Talk by Jianmo Ni**                                                                   |
+| **2:00-2:40 PM**      | **Invited Talk by Jianmo Ni**                                                                     |
 | **2:40-2:45 PM**      | **Short Break**                                                                                   |
 | **2:45-3:30 PM**      | **Paper talk - LaMP: When Large Language Models Meet Personalization**                            |
 | **3:00-3:15 PM**      | **Paper talk - Teach LLMs to Personalize -- An Approach inspired by Writing Education**           |
@@ -166,6 +166,17 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 
 # Invited Speakers
 {% include feature_row id="invited" type="left" %}
+
+# Accepted Papers
+
+| Paper ID | Title                                                                            | Link                                      |
+| -------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
+| 1        | A Dialogue Generation Adapter for LLM over Domain Knowledge Gap                  |                                           |
+| 3        | Language-Based User Profiles for Recommendation                                  | [arxiv](https://arxiv.org/abs/2402.15623) |
+| 4        | Teach LLMs to Personalize -- An Approach inspired by Writing Education           | [arxiv](https://arxiv.org/abs/2308.07968) |
+| 5        | Editable User Profiles for Controllable Text Recommendation                      | [arxiv](https://arxiv.org/abs/2304.04250) |
+| 6        | LaMP: When Large Language Models Meet Personalization                            | [arxiv](https://arxiv.org/abs/2304.11406) |
+| 7        | Automated Evaluation of Personalized Text Generation using Large Language Models | [arxiv](https://arxiv.org/abs/2310.11593) |
 
 <!-- # Accepted Papers
 <ul>
