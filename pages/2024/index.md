@@ -147,7 +147,7 @@ Topics of the workshop will include but not limited to:
 | **4:40-4:45 PM**      | **Short Break**                                                                                   |
 | **4:45-5:00 PM**      | **Paper talk - Language-Based User Profiles for Recommendation**                                  |
 | **5:00-5:15 PM**      | **Paper talk - Automated Evaluation of Personalized Text Generation using Large Language Models** |
-| **5:15-5:30 PM**      | **Paper talk - A Dialogue Generation Adapter for LLM over Domain Knowledge Gap**                  |
+| **5:15-5:30 PM**      | **Paper talk**                                                                                    |
 | **5:30-5:35 PM**      | **Closing remarks**                                                                               |
 
 
@@ -171,7 +171,6 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 
 | Paper ID | Title                                                                            | Link                                      |
 | -------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
-| 1        | A Dialogue Generation Adapter for LLM over Domain Knowledge Gap                  |                                           |
 | 3        | Language-Based User Profiles for Recommendation                                  | [arxiv](https://arxiv.org/abs/2402.15623) |
 | 4        | Teach LLMs to Personalize -- An Approach inspired by Writing Education           | [arxiv](https://arxiv.org/abs/2308.07968) |
 | 5        | Editable User Profiles for Controllable Text Recommendation                      | [arxiv](https://arxiv.org/abs/2304.04250) |
