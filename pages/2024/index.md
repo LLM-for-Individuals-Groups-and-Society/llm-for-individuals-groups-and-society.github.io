@@ -40,10 +40,10 @@ keynote:
         **Google DeepMind, Mountain View**
 
       abstract: >
-        TBA
+        Recently, the coming-of-age of deep neural networks has dramatically improved the capabilities of large language models (LLMs). Trained on a large corpus of documents, these models not only memorize the vocabulary, morphology and syntax of human languages, but have shown to be able to memorize facts and relations. Generative language models, when provided with a prompt, will extend the prompt with likely completions – an ability that can be used to extract answers to questions from the model. The keynote will summarize the short history of these generative information retrieval systems, and focus on the many open challenges in this emerging field: ensuring that answers are grounded, attributing answer passages to a primary source, providing nuanced answers to non-factoid-seeking questions, avoiding bias, and going beyond simple regurgitation of memorized facts. It will also touch on the changing nature of the content ecosystem. LLMs are starting to be used to generate web content. Should search engines treat such derived content equal to human-authored content? Is it possible to distinguish generated from original content? How should we view hybrid authorship where humans contribute ideas and LLMs shape these ideas into prose? And how will this parallel technical evolution of search engines and content ecosystems affect their respective business models?
 
       bio: >
-        TBA
+        Marc Najork is a Distinguished Research Scientist in Google DeepMind, working on new techniques to make it easier for people to obtain relevant and useful information when and where they need it. Marc is interested in using generative language models to answer questions directly, rather than referring users to relevant sources.  Direct answers represent a major paradigm shift in Information Retrieval, affecting the user experience, the fundamental architecture of the retrieval system, and the economic foundation of commercial web search and the entire web content ecosystem.  Prior to joining Google, Marc was a Principal Researcher at Microsoft Research, and a Research Scientist at Digital Equipment Corporation.  He is an ACM Fellow, IEEE Fellow, and a SIGIR Academy member.
 
       spaces: true
 
