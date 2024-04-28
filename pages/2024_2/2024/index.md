@@ -1,7 +1,7 @@
 ---
 permalink: /2024_2
 title: "2nd Workshop on Large Language Models for Individuals, Groups, and Society"
-excerpt: Washington D.C., USA, TBD, 2024 <br> Held in conjunction with <a href="https://sigir-2024.github.io/">SIGIR 2024</a>
+excerpt: Washington D.C., USA, July 18, 2024 <br> Held in conjunction with <a href="https://sigir-2024.github.io/">SIGIR 2024</a>
 browser-title: "LLM for Individuals, Groups, and Society"
 masthead-title: "LLM for Individuals, Groups, and Society"
 masthead-subtitle: "@SIGIR 2024"
@@ -10,8 +10,8 @@ layout: splash
 author_profile: false
 header:
     overlay_color: "#000"
-    overlay_filter: "0.5"
-    overlay_image: /assets/images/llm-bg.jpg
+    overlay_filter: "0.2"
+    overlay_image: /assets/images/llm-bg2.jpg
 navigation:
   - title: "Call for Papers"
     url: /2024_2/call-for-papers
@@ -213,6 +213,9 @@ Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7u
 <div id="organizer-wrap">
 <iframe id="organizer-frame" class="airtable-embed" src="https://airtable.com/embed/appIcFI3A3qlZEXLn/shrEdMW17Ryg0T1Ns?backgroundColor=orange&viewControls=on" frameborder="0" onmousewheel="" height="950" style="background: transparent; border: 1px solid #ccc;"></iframe>
 </div>
+
+# Previous Editions
+- [1st Workshop on Large Language Models for Individuals, Groups, and Society](/2024)
 
 <!-- <iframe class="airtable-embed" src="https://airtable.com/embed/shrwvG9wYqjrbXq0s?backgroundColor=purple" frameborder="0" onmousewheel="" width="106%" height="750" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
