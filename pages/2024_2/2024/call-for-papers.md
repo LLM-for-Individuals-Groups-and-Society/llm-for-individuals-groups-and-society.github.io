@@ -29,7 +29,7 @@ The workshop welcomes submissions describing original research findings as well 
 # Important Dates
 
 - **Submission deadline:** May 27, 2024
-- **Acceptance notification:** June 7, 2024
+- **Acceptance notification:** June 14, 2024
 - **Camera-ready version due:** June 21, 2024
 - **Workshop:** July 18, 2024
 
