@@ -118,6 +118,7 @@ The recent advancements in large language models (LLMs), such as GPT, PaLM, and 
 This workshop aims to create a collaborative and interdisciplinary platform that brings together creators, researchers, and practitioners of large language models. By fostering an open and forward-looking environment, the workshop seeks to facilitate discussions on the current landscape of personalizing LLMs, adapting LLMs to individual and group contexts, and aligning LLMs with the value and objectives of the society at large. It provides an opportunity for participants to share insights, exchange ideas, and explore innovative approaches in the field. The ultimate goal is to drive progress and shape the future of large language models for individuals, groups, and the society through collective expertise and collaboration.
 
 Topics of the workshop will include but not limited to:
+
 * Novel **models and algorithms** for adapting large language models to personal contexts.
 * New developments in **aligning** large language models with the preferences and objectives of individuals, sub-populations, or the society at large.
 * Theoretical and empirical results of applying **reinforcement learning from the feedback** of individuals and groups of human users to LLMs.
@@ -130,7 +131,6 @@ Topics of the workshop will include but not limited to:
 # Schedule
 
 <!-- We have a full-day program from <u>8am to 5pm on Sunday (Aug. 6)</u> at ***Grand Ballroom B***. -->
-
 
 <!-- | Time (CST)       | Agenda                                                                 |
 |------------------|------------------------------------------------------------------------|
@@ -152,7 +152,6 @@ Topics of the workshop will include but not limited to:
 | **5:00-5:15 PM** | **Paper talk - Automated Evaluation of Personalized Text Generation using Large Language Models** |
 | **5:15-5:30 PM** | **Paper talk - A Dialogue Generation Adapter for LLM over Domain Knowledge Gap** |
 | **5:30-5:35 PM** | **Closing remarks**                                                    | -->
-
 
 <!--
 {% capture schedule %}
@@ -190,7 +189,15 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 {% endfor %}
 </ul> -->
 
+# Accepted Papers
+
+| Paper ID | Title                                                                            | Link                                      |
+| -------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
+| 2        | Session Context Embedding for Intent Understanding in Product Search                                  | [arxiv](https://arxiv.org/abs/2406.01702) |
+| 3        | Unlocking the 'Why' of Buying: Introducing a New Dataset and Benchmark for Purchase Reason and Post-Purchase Experience           | [arxiv](https://arxiv.org/abs/2402.13417) |
+
 # Organizers
+
 Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7uk">this email address</a> if you have any questions.
 
 <div class="small">
@@ -215,10 +222,10 @@ Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7u
 </div>
 
 # Previous Editions
-- [1st Workshop on Large Language Models for Individuals, Groups, and Society](/2024)
+
+* [1st Workshop on Large Language Models for Individuals, Groups, and Society](/2024)
 
 <!-- <iframe class="airtable-embed" src="https://airtable.com/embed/shrwvG9wYqjrbXq0s?backgroundColor=purple" frameborder="0" onmousewheel="" width="106%" height="750" style="background: transparent; border: 1px solid #ccc;"></iframe>
-
 
 <!-- # Program Committee
 <div class="small row-two-columns">
