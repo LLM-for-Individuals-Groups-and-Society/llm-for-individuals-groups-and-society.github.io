@@ -199,7 +199,7 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 | 2        | Session Context Embedding for Intent Understanding in Product Search                                  | [arxiv](https://arxiv.org/abs/2406.01702) |
 | 3        | Unlocking the 'Why' of Buying: Introducing a New Dataset and Benchmark for Purchase Reason and Post-Purchase Experience           | [arxiv](https://arxiv.org/abs/2402.13417) |
 
-# Organizers`
+# Organizers
 
 Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7uk">this email address</a> if you have any questions.
 
