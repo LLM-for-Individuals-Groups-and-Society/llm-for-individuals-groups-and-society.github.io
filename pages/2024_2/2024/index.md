@@ -33,40 +33,43 @@ navigation:
   #   url: /all-editions
 
 keynote:
-    - image_path: assets/images/mark_najork.jpeg
-      alt: "Mark Najork"
-      title: "Mark Najork"
+    - image_path: assets/images/zhiyong_lu.png
+      alt: "Zhiyong Lu"
+      title: "Zhiyong Lu"
       excerpt: |
-        **Google DeepMind, Mountain View** <br>
-        **TBA**
+        **Senior Investigator, NIH/NLM**<br>
+        **Deputy Director for Literature Search, NCBI**<br>
+        **Professor of Computer Science (Adjunct), UIUC**
 
       abstract: >
-        TBA
+        **Transforming Medicine with AI: from PubMed Search to TrialGPT**<br>
+        The explosion of biomedical big data and information in the past decade or so has created new opportunities for discoveries to improve the treatment and prevention of human diseases. As such, the field of medicine is undergoing a paradigm shift driven by AI-powered analytical solutions. This talk explores the benefits (and risks) of AI and ChatGPT, highlighting their pivotal roles in revolutionizing biomedical discovery, patient care, diagnosis, treatment, and medical research. By demonstrating their uses in some real-world applications such as improving PubMed searches (Fiorini et al., Nature Biotechnology 2018), supporting precision medicine (LitVar, Allot et al., Nature Genetics 2023), and accelerating patient trial matching (TrialGPT), we underscore the potential of AI and ChatGPT in enhancing clinical decision-making, personalizing patient experiences, and accelerating knowledge discovery.
+
 
       bio: >
-        TBA
+        Dr. Zhiyong Lu is a tenured Senior Investigator at the NIH/NLM IPR, leading research in biomedical text and image processing, information retrieval, and AI/machine learning. In his role as Deputy Director for Literature Search at NCBI, Dr. Lu oversees the overall R&D efforts to improve literature search and information access in resources like PubMed and LitCovid, which are used by millions worldwide each day. Additionally, Dr. Lu is Adjunct Professor of Computer Science at the University of Illinois Urbana-Champaign (UIUC). With over 350 peer-reviewed publications, Dr. Lu is a highly cited author, and a Fellow of the American College of Medical Informatics (ACMI) and the International Academy of Health Sciences Informatics (IAHSI).
 
       spaces: true
 
-    - image_path: assets/images/luna_dong.jpeg
-      alt: "Xin Luna Dong"
-      title: "Xin Luna Dong"
+    - image_path: assets/images/hamed_zamani.jpg
+      alt: "Hamed Zamani"
+      title: "Hamed Zamani"
       excerpt: |
-        **Meta, Seattle** <br>
-        **TBA**
+        **Associate Professor, UMass**
 
       abstract: >
-        TBA
+        **Personalizing Large Language Models**<br>
+        Many users these days rely on Large Language Models (LLMs) to learn about topics and find the answer to their questions. In this talk, I will discuss models and evaluation methodologies for generating personalized outputs, depending on the user's preferences, history, or background knowledge. In more detail, I will first introduce the Language Model Personalization (LaMP) benchmark (https://lamp-benchmark.github.io/) -- a large-scale benchmark for studying personalization for text classification and generation using LLMs. I will later draw connections between LLM personalization and retrieval-enhanced machine learning (REML) and introduce retrieval-augmented approaches for personalizing large language models.
 
       bio: >
-        TBA
+        Hamed Zamani is an Associate Professor in the Manning College of Information and Computer Sciences at the University of Massachusetts Amherst (UMass), where he also serves as the Associate Director of the Center for Intelligent Information Retrieval (CIIR), one of the top academic research labs in Information Retrieval worldwide. Prior to UMass, he was a Researcher at Microsoft. His research focuses on designing and evaluating statistical and machine learning models with applications to (interactive) information access systems and retrieval-enhanced AI systems. His work has led to over 90 refereed publications in the field, in addition to a number of open-source research tools. His research has been recognized by a CAREER Award from NSF, Early Career Excellence in Research and Community Engagement awards from ACM SIGIR, multiple research awards from Adobe, Amazon, Google, and Microsoft, and multiple paper awards from SIGIR 2023, SIGIR 2022, CIKM 2020, and ICTIR 2019.
 
       spaces: true
 
 invited:
-    - image_path: assets/images/derek.jpeg
-      alt: "Derek Zhiyuan Cheng"
-      title: "Derek Zhiyuan Cheng"
+    - image_path: assets/images/hamed_zamani.jpg
+      alt: "Hamed Zamani"
+      title: "Hamed Zamani"
       excerpt: |
         **Google DeepMind, Mountain View** <br>
         **TBA**
@@ -164,9 +167,9 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe> -->
 
 # Keynote Speakers
-<!-- {% include feature_row id="keynote" type="left" %} -->
+{% include feature_row id="keynote" type="left" %}
 
-# Invited Speakers
+<!-- # Invited Speakers -->
 <!-- {% include feature_row id="invited" type="left"%} -->
 
 <!-- # Accepted Papers
@@ -196,7 +199,7 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 | 2        | Session Context Embedding for Intent Understanding in Product Search                                  | [arxiv](https://arxiv.org/abs/2406.01702) |
 | 3        | Unlocking the 'Why' of Buying: Introducing a New Dataset and Benchmark for Purchase Reason and Post-Purchase Experience           | [arxiv](https://arxiv.org/abs/2402.13417) |
 
-# Organizers
+# Organizers`
 
 Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7uk">this email address</a> if you have any questions.
 
@@ -243,7 +246,7 @@ Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7u
 {% endfor %}
 </ul>
 </div>
-</div>
+</div> -->
 
 <script>
     var coll = document.getElementsByClassName("collapsible");
@@ -260,4 +263,4 @@ Please contact us through <a target="_blank" href="https://mailhide.io/e/sX9eL7u
         }
     });
     }
-</script> -->
+</script>
