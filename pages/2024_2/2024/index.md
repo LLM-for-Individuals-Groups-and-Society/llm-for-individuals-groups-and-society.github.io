@@ -135,26 +135,16 @@ Topics of the workshop will include but not limited to:
 
 <!-- We have a full-day program from <u>8am to 5pm on Sunday (Aug. 6)</u> at ***Grand Ballroom B***. -->
 
-<!-- | Time (CST)       | Agenda                                                                 |
-|------------------|------------------------------------------------------------------------|
-| **9:00-9:10 AM** | **Opening remarks**                                                    |
-| **9:10-10:00 AM**| **Keynote by Marc Najork**                                             |
-| **10:00-10:30 AM**| **Break**                                                              |
-| **10:30-11:20 AM**| **Keynote by Luna Dong**                                               |
-| **11:20-11:30 AM**| **Short Break**                                                        |
-| **11:30 AM-12:15 PM**| **Panel discussion**                                                 |
-| **2:00-2:40 PM** | **Invited Talk by Derek Cheng**                                        |
-| **2:40-2:45 PM** | **Short Break**                                                        |
-| **2:45-3:30 PM** | **Paper talk - LaMP: When Large Language Models Meet Personalization** |
-| **3:00-3:15 PM** | **Paper talk - Teach LLMs to Personalize -- An Approach inspired by Writing Education** |
-| **3:15-3:30 PM** | **Paper talk - Editable User Profiles for Controllable Text Recommendations** |
-| **3:30-4:00 PM** | **Break**                                                              |
-| **4:00-4:40 PM** | **Invited Talk by Julian McAuley (virtual talk)**                      |
-| **4:40-4:45 PM** | **Short Break**                                                        |
-| **4:45-5:00 PM** | **Paper talk - Language-Based User Profiles for Recommendation**       |
-| **5:00-5:15 PM** | **Paper talk - Automated Evaluation of Personalized Text Generation using Large Language Models** |
-| **5:15-5:30 PM** | **Paper talk - A Dialogue Generation Adapter for LLM over Domain Knowledge Gap** |
-| **5:30-5:35 PM** | **Closing remarks**                                                    | -->
+| Time               | Agenda                                                                                    |
+|--------------------|-------------------------------------------------------------------------------------------|
+| **9:00-9:10 AM**   | **Opening remarks**                                                                       |
+| **9:10-10:00 AM**  | **Keynote by Zhiyong Lu - Transforming Medicine with AI: from PubMed Search to TrialGPT** |
+| **10:00-10:30 AM** | **Contributing Talk 1**                                                                   |
+| **10:30-11:00 AM** | **Break**                                                                                 |
+| **11:00-11:30 AM** | **Contributing Talk 2**                                                                   |
+| **2:00-3:00 PM**   | **Panel Discussion**                                                                      |
+| **3:00-3:30 PM**   | **Break**                                                                                 |
+| **3:30-4:20 PM**   | **Keynote by Hamed Zamani - Personalizing Large Language Models**                         |
 
 <!--
 {% capture schedule %}
@@ -167,6 +157,7 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe> -->
 
 # Keynote Speakers
+
 {% include feature_row id="keynote" type="left" %}
 
 <!-- # Invited Speakers -->
