@@ -67,33 +67,18 @@ keynote:
       spaces: true
 
 invited:
-    - image_path: assets/images/hamed_zamani.jpg
-      alt: "Hamed Zamani"
-      title: "Hamed Zamani"
+    - image_path: assets/images/hongning_wang.jpg
+      alt: "Hongning Wang"
+      title: "Hongning Wang"
       excerpt: |
-        **Google DeepMind, Mountain View** <br>
-        **TBA**
+        **Copenhaver Associate Professor of Computer Science, University of Virginia** <br>
 
       abstract: >
-        TBA
+        **Human vs. Generative AI in Content Creation Competition: Symbiosis or Conflict?**<br>
+        The advent of generative AI technology produces transformative impact on the content creation landscape, offering alternative approaches to produce diverse, good-quality content across media, thereby reshaping the ecosystems of online content creation and publishing, but also raising concerns about market over-saturation and the potential marginalization of human creativity. Our recent work introduces a competition model generalized from the Tullock contest to analyze the tension between human creators and generative AI. Our theory and simulations suggest that despite challenges, a stable equilibrium between human and AI-generated content is possible. Our work contributes to understanding the competitive dynamics in the content creation industry, offering insights into the future interplay between human creativity and technological advancements in generative AI.
 
       bio: >
-        TBA
-
-      spaces: true
-
-    - image_path: assets/images/julian.jpeg
-      alt: "Julian McAuley"
-      title: "Julian McAuley"
-      excerpt: |
-        **UC San Diego, San Diego** <br>
-        **TBA**
-
-      abstract: >
-        TBA
-
-      bio: >
-        TBA
+        Hongning Wang received his Ph.D. from the Department of Computer Science at University of Illinois at Champaign-Urbana in 2014, and joined University of Virginia as Assistant Professor since then. He is the recipient of National Science Foundation CAREER Award, 2014 Yahoo ACE (Academic Career Enhancement) Award, Google 2012 PhD Fellowship in Search and Information Retrieval, and 2012 Yahoo! Key Scientific Challenges in Web Information Management. He has served on program committees for several major conferences such as WWW, WSDM, ICML, ECML/PKDD, CIKM, and ECIR, and reviewed for multiple journals, including IEEE TKDE, ACM TOIS, Neurocomputing and BMC Bioinformatics.
 
       spaces: true
 ---
@@ -135,16 +120,17 @@ Topics of the workshop will include but not limited to:
 
 <!-- We have a full-day program from <u>8am to 5pm on Sunday (Aug. 6)</u> at ***Grand Ballroom B***. -->
 
-| Time               | Agenda                                                                                    |
-|--------------------|-------------------------------------------------------------------------------------------|
-| **9:00-9:10 AM**   | **Opening remarks**                                                                       |
-| **9:10-10:00 AM**  | **Keynote by Zhiyong Lu - Transforming Medicine with AI: from PubMed Search to TrialGPT** |
-| **10:00-10:30 AM** | **Contributing Talk 1**                                                                   |
-| **10:30-11:00 AM** | **Break**                                                                                 |
-| **11:00-11:30 AM** | **Contributing Talk 2**                                                                   |
-| **2:00-3:00 PM**   | **Panel Discussion**                                                                      |
-| **3:00-3:30 PM**   | **Break**                                                                                 |
-| **3:30-4:20 PM**   | **Keynote by Hamed Zamani - Personalizing Large Language Models**                         |
+| Time               | Agenda                                                                                                             |
+|--------------------|--------------------------------------------------------------------------------------------------------------------|
+| **9:00-9:10 AM**   | **Opening remarks**                                                                                                |
+| **9:10-10:00 AM**  | **Keynote by Zhiyong Lu - Transforming Medicine with AI: from PubMed Search to TrialGPT**                          |
+| **10:00-10:30 AM** | **Contributing Talk 1**                                                                                            |
+| **10:30-11:00 AM** | **Break**                                                                                                          |
+| **11:00-11:30 AM** | **Contributing Talk 2**                                                                                            |
+| **1:30-2:00 PM**   | **Invited talk by Hongning Wang - Human vs. Generative AI in Content Creation Competition: Symbiosis or Conflict** |
+| **2:00-3:00 PM**   | **Panel Discussion**                                                                                               |
+| **3:00-3:30 PM**   | **Break**                                                                                                          |
+| **3:30-4:20 PM**   | **Keynote by Hamed Zamani - Personalizing Large Language Models**                                                  |
 
 <!--
 {% capture schedule %}
@@ -160,8 +146,9 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 
 {% include feature_row id="keynote" type="left" %}
 
-<!-- # Invited Speakers -->
-<!-- {% include feature_row id="invited" type="left"%} -->
+# Invited Speakers
+
+{% include feature_row id="invited" type="left"%}
 
 <!-- # Accepted Papers
 <ul>
