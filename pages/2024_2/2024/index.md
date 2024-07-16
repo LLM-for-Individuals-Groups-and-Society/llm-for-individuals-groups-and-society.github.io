@@ -120,17 +120,17 @@ Topics of the workshop will include but not limited to:
 
 <!-- We have a full-day program from <u>8am to 5pm on Sunday (Aug. 6)</u> at ***Grand Ballroom B***. -->
 
-| Time               | Agenda                                                                                                             |
-|--------------------|--------------------------------------------------------------------------------------------------------------------|
-| **9:00-9:10 AM**   | **Opening remarks**                                                                                                |
-| **9:10-10:00 AM**  | **Keynote by Zhiyong Lu - Transforming Medicine with AI: from PubMed Search to TrialGPT**                          |
-| **10:00-10:30 AM** | **Contributing Talk 1**                                                                                            |
-| **10:30-11:00 AM** | **Break**                                                                                                          |
-| **11:00-11:30 AM** | **Contributing Talk 2**                                                                                            |
-| **1:30-2:00 PM**   | **Invited talk by Hongning Wang - Human vs. Generative AI in Content Creation Competition: Symbiosis or Conflict** |
-| **2:00-3:00 PM**   | **Panel Discussion**                                                                                               |
-| **3:00-3:30 PM**   | **Break**                                                                                                          |
-| **3:30-4:20 PM**   | **Keynote by Hamed Zamani - Personalizing Large Language Models**                                                  |
+| Time               | Agenda                                                                                                                                            |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| **9:00-9:10 AM**   | **Opening remarks**                                                                                                                               |
+| **9:10-10:00 AM**  | **Keynote by Zhiyong Lu - Transforming Medicine with AI: from PubMed Search to TrialGPT**                                                         |
+| **10:00-10:30 AM** | **Contributing Talk 1 - Unlocking the ‘Why’ of Buying: Introducing a New Dataset and Benchmark for Purchase Reason and Post-Purchase Experience** |
+| **10:30-11:00 AM** | **Break**                                                                                                                                         |
+| **11:00-11:30 AM** | **Contributing Talk 2 - Session Context Embedding for Intent Understanding in Product Search**                                                    |
+| **1:30-2:00 PM**   | **Invited talk by Hongning Wang - Human vs. Generative AI in Content Creation Competition: Symbiosis or Conflict**                                |
+| **2:00-3:00 PM**   | **Panel Discussion**                                                                                                                              |
+| **3:00-3:30 PM**   | **Break**                                                                                                                                         |
+| **3:30-4:20 PM**   | **Keynote by Hamed Zamani - Personalizing Large Language Models**                                                                                 |
 
 <!--
 {% capture schedule %}
