@@ -22,7 +22,9 @@ navigation:
   - title: "Schedule"
     url: /2024_2#schedule
   - title: "Keynotes"
-    url: /2024_2#keynote-speakers
+    url: /2024_2#keynote-speaker
+  - title: "Speakers"
+    url: /2024_2#speaker
   - title: "Panelists"
     url: /2024_2#panelists
   # - title: "Accepted Papers"
@@ -51,6 +53,7 @@ keynote:
 
       spaces: true
 
+speaker:
     - image_path: assets/images/hamed_zamani.jpg
       alt: "Hamed Zamani"
       title: "Hamed Zamani"
@@ -130,7 +133,7 @@ Topics of the workshop will include but not limited to:
 | **1:30-2:00 PM**   | **Invited talk by Hongning Wang**<br>Human vs. Generative AI in Content Creation Competition: Symbiosis or Conflict                                                           |
 | **2:00-3:00 PM**   | **Panel Discussion (Panelists: Michael Bendersky, Vanessa Murdock, Hongning Wang, Wei Ai; Moderator: Mingyang Zhang)**<br>Opportunities and Challenges for Personalizing LLMs |
 | **3:00-3:30 PM**   | **Break**                                                                                                                                                                    |
-| **3:30-4:20 PM**   | **Keynote by Hamed Zamani**<br>Personalizing Large Language Models                                                                                                            |
+| **3:30-4:20 PM**   | **Talk by Hamed Zamani**<br>Personalizing Large Language Models                                                                                                            |
 
 <!--
 {% capture schedule %}
@@ -142,13 +145,17 @@ Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKc
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRMzc0vmmj11ItBZKcHgKIVed9VaePOYvUeueLsOZidKApQmheY0fFLptdCVNhWCQLXPCxfLRxThiA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe> -->
 
-# Keynote Speakers
+# Keynote Speaker
 
 {% include feature_row id="keynote" type="left" %}
 
-# Invited Speakers
+# Invited Speaker
 
 {% include feature_row id="invited" type="left"%}
+
+# Speaker
+
+{% include feature_row id="speaker" type="left" %}
 
 <!-- # Accepted Papers
 <ul>
